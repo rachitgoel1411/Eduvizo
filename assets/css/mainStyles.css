@@ -1,0 +1,576 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: white;
+}
+
+.header {
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+.navbar{
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    
+}
+
+.carousel-inner {
+    margin-top: 2rem;
+}
+
+.carousel-item img {
+  height: 180px;
+}
+
+.right-icon, .left-icon {
+    font-size: 3rem;
+    color: black;
+}
+
+
+.card-deck{
+    width: 95%;
+    margin: auto;
+    margin-top: 2rem;
+    
+}
+
+.card-deck .card {
+    border-radius: 20px;
+    border-top: none;
+    filter: drop-shadow(0px 30px 10px #D6F1FF);
+}
+
+.card-deck .card .card-body{
+    text-align: center;
+}
+
+.card-deck .card .card-body h5{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+.whyEduvizo {
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.whyEduvizo h2 {
+    font-size: 2rem;
+    font-weight:500; 
+    color: #0091DC;
+}
+
+.whyEduvizo p{
+    font-weight: 400;
+    width: 70%;
+}
+
+
+
+.reallyNeedEduvizo{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/* .question-imgVector{
+    display: flex;
+} */
+
+
+.img-vector img{
+    height: 200px;
+}
+.question h2{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.question-para {
+    color: #007FFF;
+}
+
+.what-we-found {
+   
+}
+
+.outer-div-progress {
+    
+    position: relative;
+}
+
+.progress {
+    width: 150px;
+    height: 150px !important;
+    float: left; 
+    line-height: 150px;
+    background: rgb(240, 237, 237);
+    margin: 20px;
+    box-shadow: none;
+    position: relative;
+   
+    padding-bottom: 60px;
+  }
+
+  .progress-para {
+    z-index: 2;
+    position: absolute;
+    top: 168px;
+    left: 50px;
+  }
+  .progress:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 12px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .progress>span {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
+  .progress .progress-left {
+    left: 0;
+  }
+  .progress .progress-bar {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 12px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+  }
+  .progress .progress-left .progress-bar {
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+  }
+  .progress .progress-right {
+    right: 0;
+  }
+  .progress .progress-right .progress-bar {
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-1 1.8s linear forwards;
+  }
+  .progress .progress-value {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background: #F1FAFF;
+    font-size: 24px;
+    color: #007FFF;
+    line-height: 135px;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+  }
+  
+  .progress.yellow .progress-bar {
+    border-color: #F21F42;
+  }
+  .progress.yellow .progress-right .progress-bar {
+    
+    animation: loading-1 1.8s linear forwards;
+  }
+  .progress.yellow .progress-left .progress-bar {
+    animation: none;
+  }
+  
+  
+  .progress.yellow2 .progress-bar {
+    border-color: #F21F42;
+  }
+  .progress.yellow2 .progress-right .progress-bar {
+    
+    animation: loading-2 1.8s linear forwards;
+  }
+  .progress.yellow2 .progress-left .progress-bar {
+    animation: none;
+  }
+  
+  
+  .progress.yellow3 .progress-bar {
+    border-color: #F21F42;
+  }
+  .progress.yellow3 .progress-right .progress-bar {
+    
+    animation: loading-3 1.8s linear forwards;
+  }
+  .progress.yellow3 .progress-left .progress-bar {
+    animation: none;
+  }
+  
+  
+  .progress.yellow4 .progress-bar {
+    border-color: #F21F42;
+  }
+  .progress.yellow4 .progress-right .progress-bar {
+    
+    animation: loading-4 1.8s linear forwards;
+  }
+  .progress.yellow4 .progress-left .progress-bar {
+    animation: none;
+  }
+  
+  @keyframes loading-1 {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(180deg);
+      transform: rotate(50deg);
+    }
+  }
+  @keyframes loading-2 {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(144deg);
+      transform: rotate(144deg);
+    }
+  }
+  @keyframes loading-3 {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(135deg);
+      transform: rotate(45deg);
+    }
+  }
+  
+  @keyframes loading-4 {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(135deg);
+      transform: rotate(135deg);
+    }
+  }
+
+
+.card-img-top{
+  width: 50%;
+  margin: auto;
+}
+
+.student-rating{
+  margin-top: 100px;
+  position: relative;
+  
+}
+
+.student-rating h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.student-rating .card-deck .card .card-title {
+  color: #0091DC;
+  font-weight: 400;
+}
+
+.student-rating .card-deck .card {
+  border-radius: 20px;
+  filter: none;
+}
+
+.student-rating .blue-box {
+  height: 90vh;
+  width: 100%;
+  position: absolute;
+  background-color: #0091DC;
+  top: 200px;
+  z-index: -5;
+}
+
+.download-rating {
+  position: absolute;
+  display: flex;
+  top: 60%;
+  left: 10%;
+  width: 60%;
+}
+
+.download-rating .vertical-line {
+  background-color: white;
+  height: 100px;
+  width: 2px;
+  
+}
+
+.download-rating h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.download-rating p{
+  color: white;
+}
+
+.checked {
+  color: #F9AF2A;
+}
+
+.rating .rating-star .half-star{
+  color: #F9AF2A;
+}
+
+.download-rating h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.download {
+  width: 45%;
+  margin: auto;
+ 
+  text-align: center;
+}
+
+.rating {
+  width: 45%;
+  margin: auto;
+  text-align: center;
+
+}
+
+.contact-us-div {
+  margin-top: 300px;
+  height: 250px;
+  width: 100%;
+  background-color: #0091DC;
+  z-index: 8;
+  display: flex;
+  
+}
+
+
+.contact-us-div .contact, .contact-img {
+  width: 50%;
+}
+
+
+
+.contact-us-div .contact h1 {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.contact-form {
+ 
+  height: 110vh;
+  display:flex ;
+}
+
+.form-page{
+  background: rgba(0, 145, 220, 0.09);
+  width: 70%;
+  margin: auto;
+  margin-top: 200px;
+  padding: 40px;
+}
+
+.contact-form .form-page .btn {
+  background-color: #F9AF2A;
+  border-color: #F9AF2A;
+  width: 300px;
+}
+.email-details{
+
+  height: 200px;
+  width: 20%;
+  margin: auto;
+  text-align: center;
+}
+
+.form-page h1 {
+  font-size: 3rem;
+  color: #0091DC;
+}
+
+.form-page label {
+  color: #0091DC;
+  font-weight: 400;
+}
+
+.email-details h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.email-details p{
+  color: #0091DC;
+}
+
+.connect-brands{
+
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.connect-brands .fa-facebook {
+  color:  #2153AD;
+  font-size: 1rem;
+}
+
+
+.connect-brands .fa-linkedin {
+  color:  #0966C2;
+  font-size: 1rem;
+}
+
+.connect-brands .fa-square-instagram{
+  color:#FC71A3 ;
+  font-size: 1rem;
+}
+
+
+footer .footer .main-logo{
+  display: flex;
+
+  justify-content: center;
+ }
+
+
+footer .footer .tutor-service-about{
+  display: flex;
+
+  justify-content: space-around;
+  width: 60%;
+  margin: auto;
+  color: #2681B0;
+ }
+
+ footer .footer .contact-use{
+   display: flex;
+   
+   justify-content: space-around;
+   width: 60%;
+   margin: auto;
+   color: #2681B0;
+ }
+
+
+
+@media screen and (max-width: 600px) /*===============Mobile==================*/
+{
+    .carousel-inner {
+        margin-top: 1rem;
+    }
+
+    .right-icon, .left-icon {
+        font-size: 1rem;
+        color: black;
+    }
+
+    .whyEduvizo p{
+        font-weight: 400;
+        width: 100%;
+    }
+
+    .whyEduvizo img{
+        width: 100%;
+    }
+
+    .download-rating {
+      top: 160%;
+      width: 100%;
+      left: 1%;
+    
+      
+    }
+  
+
+    .download-rating .download {
+      text-align: center;
+   
+    }
+
+    .download-rating .rating{
+      text-align: center;
+  
+    }
+
+    .download-rating p{
+      color: black;
+    }
+    .download-rating .download h2{
+      color: black;
+    }
+
+    .download-rating .rating h3{
+      color: black;
+    }
+    
+    .download-rating .vertical-line {
+      background-color: black;
+    }
+
+    .contact-us-div .contact h1 {
+      font-size: 2rem;
+    }
+
+    .contact-form {
+      flex-direction: column;
+    }
+
+    .contact-form .form-page .btn {
+      width: 100%;
+    }
+
+    .form-page h1 {
+      font-size: 2rem;
+    }
+    
+    .form-page{
+      background: none;
+      
+      padding: 0px;
+    }
+
+    .email-details {
+      width: 90%;
+    }
+
+    
+}

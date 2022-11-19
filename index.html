@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+  <title>Eduvizo - All Round Engineering Solution </title>
+
+  <!-- Favicons -->
+  <link type="image/x-icon" href="assets/img/favicon.png" rel="icon">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+  <!-- Fontawesome CSS -->
+  <link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/mainStyles.css">
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+                <script src="assets/js/html5shiv.min.js"></script>
+                <script src="assets/js/respond.min.js"></script>
+            <![endif]-->
+  <style>
+    @media screen and (max-width: 600px) {
+      #title_message {
+        visibility: hidden;
+        clear: both;
+        float: left;
+        margin: 10px auto 5px 20px;
+        width: 28%;
+        display: none;
+      }
+
+      .vieww-btn {
+        font-size: 20px !important;
+        padding: 8px !important;
+      }
+
+      .heading {
+        font-size: 40px !important;
+      }
+
+      .navbar-brand.logo img {
+        position: absolute !important;
+        top: 20px !important;
+        right: 10px !important;
+      }
+
+      .profile-widget {
+        width: 100px !important;
+        margin: 5px 2px !important;
+      }
+    }
+
+
+    .btn {
+      font-size: 0.95rem;
+    }
+
+    @media only screen and (max-width: 900px) {
+      .card_box {
+        width: 40%;
+        margin: 3%;
+      }
+    }
+
+    .round {
+      background-color: blue;
+      border-radius: 15%;
+    }
+
+    .dropdown-menu {
+      left: -110% !important;
+    }
+
+    .bg-gray-100 {
+      background-color: #b9e93d;
+    }
+
+    .dropdown-item:hover {
+      background-color: green;
+    }
+
+    .btn-icon {
+      color: #fff;
+    }
+
+    .mt-4 {
+      margin-top: 0rem !important;
+    }
+
+    .py-24 {
+      padding-top: 2rem !important;
+    }
+
+    @media screen and (max-width: 600px) {
+      #title_message {
+        visibility: hidden;
+        clear: both;
+        float: left;
+        margin: 10px auto 5px 20px;
+        width: 28%;
+        display: none;
+      }
+
+      .vieww-btn {
+        font-size: 20px !important;
+        padding: 8px !important;
+      }
+
+      .heading {
+        font-size: 40px !important;
+      }
+
+      .navbar-brand.logo img {
+        position: absolute !important;
+        top: 20px !important;
+        right: 10px !important;
+      }
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NEME5C9JYC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-NEME5C9JYC');
+  </script>
+
+</head>
+
+<body>
+  <!-- Main Wrapper -->
+  <div class="main-wrapper">
+
+    <!-- Header -->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg header-nav">
+        <div class="navbar-header">
+          <a id="mobile_btn" href="javascript:void(0);">
+            <span class="bar-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </a>
+          <a href="index.html" class="navbar-brand logo">
+            <img src="assets/img/logo.png" class="img-fluid" alt="Logo">
+          </a>
+        </div>
+        <div class="main-menu-wrapper">
+          <div class="menu-header">
+            <a href="index.html" class="menu-logo">
+              <img src="assets/img/logo.png" class="img-fluid" alt="Logo">
+            </a>
+            <a id="menu_close" class="menu-close" href="javascript:void(0);">
+              <i class="fas fa-times"></i>
+            </a>
+          </div>
+          <ul class="main-nav">
+            <li class="active">
+              <a href="index.html">Home</a>
+            </li>
+
+
+
+            <li class="active">
+              <a href="#tutor_home">Log In</a>
+            </li>
+
+
+
+            <li class="active">
+              <a href="#about_us">About Us</a>
+            </li>
+
+            <li class="active">
+              <a href="#how_use">How to Use</a>
+            </li>
+
+            <li class="active">
+              <a href="#contact">Contact Us</a>
+            </li>
+
+
+
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="assets\img\slide1.png" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets\img\slide1.png" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets\img\slide1.png" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <i class="fa-solid fa-less-than left-icon"></i>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <i class="fa-solid fa-greater-than right-icon"></i>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div class="card-decks-div">
+      <div class="card-deck">
+
+        <div class="card">
+          <a href="careerGuidaance.html">
+          <div class="card-body">
+            <h5 class="card-title">Career Guidance</h5>
+            <p class="card-text">Discuss your college and branch options.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </a>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Admission Counselling</h5>
+            <p class="card-text">Discuss your college and branch options.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Exam Preparation Guidance</h5>
+            <p class="card-text">Discuss your college and branch options.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="card-deck">
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Placement/Internship Guidance</h5>
+            <p class="card-text">Discuss your college and branch options.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Subject related doubts</h5>
+            <p class="card-text">Discuss your college and branch options.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">More Coming Soon .....</h5>
+            <p class="card-text">Discuss your college and branch options.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="whyEduvizo">
+      <h2>What is Eduvizo? </h2>
+      <p>Eduvizo is an IIT students-led startup aiming to help you get the college you truly deserve. It is supported by
+        IIT Mandi Catalyst (A government incubator) and is recognized by various IITs. We are proud of our vast network
+        of tutors from prestigious colleges, ready to help you choose the right college</p>
+      <img src="assets\img\why_eduvizo.png">
+    </div>
+
+    <div class="reallyNeedEduvizo">
+      <div class="question-imgVector">
+        <div class="question">
+          <h2>Do you really need Eduvizo?</h2><br>
+          <p>We asked almost a thousand students-</p>
+          <b>"What do you do when you choose the college and branch you want to be in?"</b><br><br>
+          <p class="question-para">This is what we found:</p>
+        </div>
+
+        <!-- <div class="img-vector">
+          <img src="assets\img\service\new.png">
+        </div> -->
+      </div>
+
+      <div class="what-we-found">
+        <div class="row d-flex justify-content-around flex-wrap mt-100">
+
+          <div class="outer-div-progress">
+            <div class="progress yellow">
+              <span class="progress-left">
+                <span class="progress-bar"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar"></span>
+              </span>
+              <div class="progress-value">16%</div>
+
+            </div>
+            <p class="progress-para">Ask a friend</p>
+          </div>
+
+          <div class="outer-div-progress">
+            <div class="progress yellow2">
+              <span class="progress-left">
+                <span class="progress-bar"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar"></span>
+              </span>
+              <div class="progress-value">39%</div>
+            </div>
+            <p class="progress-para">Search Online</p>
+          </div>
+
+          <div class="outer-div-progress">
+            <div class="progress yellow3">
+              <span class="progress-left">
+                <span class="progress-bar"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar"></span>
+              </span>
+              <div class="progress-value">14%</div>
+            </div>
+            <p class="progress-para">Ask Relatives</p>
+          </div>
+
+          <div class="outer-div-progress">
+            <div class="progress yellow4">
+              <span class="progress-left">
+                <span class="progress-bar"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar"></span>
+              </span>
+              <div class="progress-value">31%</div>
+            </div>
+            <p class="progress-para">&nbsp;&nbsp;Coaching</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="student-rating">
+      <h1>Students are Loving Us !</h1>
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="assets\img\Student.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Student Name</h5>
+            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum et dicta harum
+              perferendis, a quisquam voluptates? Ipsa eum ullam dolorem nostrum nisi animi voluptates ipsum ab! Placeat
+              obcaecati ab quo?</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card-img-top" src="assets\img\Student.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Student Name</h5>
+            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum et dicta harum
+              perferendis, a quisquam voluptates? Ipsa eum ullam dolorem nostrum nisi animi voluptates ipsum ab! Placeat
+              obcaecati ab quo?</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card-img-top" src="assets\img\Student.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Student Name</h5>
+            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum et dicta harum
+              perferendis, a quisquam voluptates? Ipsa eum ullam dolorem nostrum nisi animi voluptates ipsum ab! Placeat
+              obcaecati ab quo?</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="blue-box">
+        <div class="download-rating">
+          <div class="download">
+            <h2>2.2M+</h2>
+            <p>app downloads</p>
+          </div>
+
+          <div class="vertical-line"></div>
+
+          <div class="rating">
+            <div class="rating-star">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <i class="fa-regular fa-star-half-stroke half-star"></i>
+            </div>
+            <h3>4.6/5</h3>
+            <p>rating on playstore</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-us-div">
+      <div class="contact">
+        <h1>Contact Us</h1>
+      </div>
+      <div class="contact-img"><img src="assets\img\contactus [Converted]-01.png"></div>
+    </div>
+
+    <div class="contact-form">
+      <div class="form-page">
+        <h1>How can we help you ?</h1>
+        <p>PLease let us know by filling the form</p>
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputName">Name</label>
+              <input type="text" class="form-control" id="inputName" placeholder="Enter full name">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Phone</label>
+              <input type="number" class="form-control" id="number" placeholder="Enter number">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label for="inputAddress2">Message</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Enter message">
+          </div>
+
+
+          <button type="submit" class="btn btn-primary">Message Us</button>
+        </form>
+      </div>
+      <div class="email-details">
+        <h2>Email us at</h2>
+        <p>contact@eduvizo.com</p><br>
+        <div class="connect-brands">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+        </div>
+        
+      </div>
+    </div>
+
+
+    <footer>
+      <div class="footer">
+        <div class="main-logo"><img src="assets/img/logo.png" class="img-fluid" alt="Logo"></div>
+        <div class="tutor-service-about">
+          <p>Tutors</p>
+          <p>Our Services</p>
+          <p>About Us</p>
+        </div>
+        <div class="contact-use">
+          <p>Contact Us</p>
+          <p>How to Use</p>
+        </div>
+      </div>
+    </footer>
+    <!-- /Main Wrapper -->
+    <!-- jQuery -->
+    <script src="assets/js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JS -->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Slick JS -->
+    <script src="assets/js/slick.js"></script>
+
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

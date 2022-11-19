@@ -1,0 +1,35 @@
+
+main {
+    height: 69vh;
+}
+
+.back-btn {
+    width: 90%;
+    margin: auto;
+   
+}
+
+.cards .card-deck .card {
+    height: 200px;
+    
+}
+
+.cards {
+  
+    width: 80%;
+    margin: auto;
+}
+
+.cards .card-deck {
+  
+    width: 80%;
+}
+
+.cards .card .card-body  .btn {
+    background-color: #F9AF2A;
+    border-color: #F9AF2A;
+    width: 80%;
+
+    border-radius: 10px;
+    
+  }
