@@ -1,0 +1,99 @@
+
+.card-deck .card {
+    /* height: 200px; */
+    padding: 10px;
+    background-color: #F6F6F6;
+    box-shadow: 0 0 10px #ddd6d6;;
+    filter: none;
+    
+}
+
+.card-deck .card img {
+    width: 40%;
+}
+
+.back-btn {
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.three-dropdown {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+}
+
+.three-dropdown select {
+    border: 1px solid #2D2D2D;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+   
+    position: relative;
+}
+
+.fa-caret-down {
+    position: absolute;
+    left: 10px;
+}
+
+.card-deck .card .card-body h5, p {
+    font-size: 0.75rem;
+}
+
+.title-rating-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-rating-div .fa-star{
+    color: orange;
+}
+
+.button-heart-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-heart-div button {
+    background-color: orange;
+    border: none;
+    border-radius: 50px;
+    height: 25px;
+    text-align: center;
+    font-size: 0.65rem;
+}
+
+.button-heart-div .fa-heart {
+    font-size: 1.5rem;
+    color: #2D2D2D;
+}
+@media screen and (max-width: 768px) {
+
+    .card-deck {
+       
+        width: 60%;
+    
+    }
+
+    .three-dropdown {
+        width: 100%;
+       
+    }
+
+    .three-dropdown select {
+        padding: 4px;
+    }
+
+    .card-deck .card {
+        /* height: 230px; */
+        padding: 10px;
+       
+        
+    }
+}
+
+
