@@ -1,0 +1,79 @@
+.imageAndName {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 5%;
+  
+    margin-top: 1%;
+}
+
+.imageAndName img {
+    width: 20%;
+}
+
+.imageAndName h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: auto;
+}
+
+.basic-information {
+    width: 60%;
+    margin: auto;
+
+}
+
+.basic-information .icon-title {
+    display: flex;
+}
+
+.basic-information .icon-title i{
+    font-size: 1.5rem;
+    color: #2681B0;
+}
+
+.basic-information .icon-title h3 {
+    margin-left: 5%;
+    font-size: 1.5rem;
+}
+
+.information-table table {
+    margin-bottom: 30px;
+    width: 80%;
+    height: 50vh;
+}
+
+.information-table table td {
+    width: 50%;
+}
+
+.information-table table input{
+    border-bottom: 1px solid #2D2D2D;
+    width: 80%;
+}
+
+.information-table table select{
+    width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .imageAndName {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: auto;
+    }
+
+    .basic-information {
+        margin-top: 2%;
+        width: 90%;
+    
+    }
+
+    .information-table table {
+       
+        width: 100%;
+        height: 50vh;
+    }
+}

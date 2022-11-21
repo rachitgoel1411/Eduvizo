@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>Eduvizo - All Round Engineering Solution </title>
+
+    <!-- Favicons -->
+    <link type="image/x-icon" href="assets/img/favicon.png" rel="icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mainStyles.css">
+    <link rel="stylesheet" href="assets/css/profile.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+                <script src="assets/js/html5shiv.min.js"></script>
+                <script src="assets/js/respond.min.js"></script>
+            <![endif]-->
+    <style>
+        @media screen and (max-width: 600px) {
+            #title_message {
+                visibility: hidden;
+                clear: both;
+                float: left;
+                margin: 10px auto 5px 20px;
+                width: 28%;
+                display: none;
+            }
+
+            .vieww-btn {
+                font-size: 20px !important;
+                padding: 8px !important;
+            }
+
+            .heading {
+                font-size: 40px !important;
+            }
+
+            .navbar-brand.logo img {
+                position: absolute !important;
+                top: 20px !important;
+                right: 10px !important;
+            }
+
+            .profile-widget {
+                width: 100px !important;
+                margin: 5px 2px !important;
+            }
+        }
+
+
+        .btn {
+            font-size: 0.95rem;
+        }
+
+        @media only screen and (max-width: 900px) {
+            .card_box {
+                width: 40%;
+                margin: 3%;
+            }
+        }
+
+        .round {
+            background-color: blue;
+            border-radius: 15%;
+        }
+
+        .dropdown-menu {
+            left: -110% !important;
+        }
+
+        .bg-gray-100 {
+            background-color: #b9e93d;
+        }
+
+        .dropdown-item:hover {
+            background-color: green;
+        }
+
+        .btn-icon {
+            color: #fff;
+        }
+
+        .mt-4 {
+            margin-top: 0rem !important;
+        }
+
+        .py-24 {
+            padding-top: 2rem !important;
+        }
+
+        @media screen and (max-width: 600px) {
+            #title_message {
+                visibility: hidden;
+                clear: both;
+                float: left;
+                margin: 10px auto 5px 20px;
+                width: 28%;
+                display: none;
+            }
+
+            .vieww-btn {
+                font-size: 20px !important;
+                padding: 8px !important;
+            }
+
+            .heading {
+                font-size: 40px !important;
+            }
+
+            .navbar-brand.logo img {
+                position: absolute !important;
+                top: 20px !important;
+                right: 10px !important;
+            }
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NEME5C9JYC"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-NEME5C9JYC');
+    </script>
+
+</head>
+
+<body>
+    <!-- Main Wrapper -->
+    <div class="main-wrapper">
+
+        <!-- Header -->
+        <header class="header">
+            <nav class="navbar navbar-expand-lg header-nav">
+                <div class="navbar-header">
+                    <a id="mobile_btn" href="javascript:void(0);">
+                        <span class="bar-icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </a>
+                    <a href="index.html" class="navbar-brand logo">
+                        <img src="assets/img/logo.png" class="img-fluid" alt="Logo">
+                    </a>
+                </div>
+                <div class="main-menu-wrapper">
+                    <div class="menu-header">
+                        <a href="index.html" class="menu-logo">
+                            <img src="assets/img/logo.png" class="img-fluid" alt="Logo">
+                        </a>
+                        <a id="menu_close" class="menu-close" href="javascript:void(0);">
+                            <i class="fas fa-times"></i>
+                        </a>
+                    </div>
+                    <ul class="main-nav">
+                        <li class="active">
+                            <a href="index.html">Home</a>
+                        </li>
+
+
+
+                        <li class="active">
+                            <a href="#tutor_home">Log In</a>
+                        </li>
+
+
+
+                        <li class="active">
+                            <a href="#about_us">About Us</a>
+                        </li>
+
+                        <li class="active">
+                            <a href="#how_use">How to Use</a>
+                        </li>
+
+                        <li class="active">
+                            <a href="#contact">Contact Us</a>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="imageAndName">
+                <img src="assets\img\Student.png">
+                <h1>User Name</h1>
+            </div>
+
+            <div class="basic-information">
+                <div class="icon-title">
+                    <i class="fa-solid fa-user"></i>
+                    <h3>Basic Information</h3>
+                </div>
+                <div class="information-table">
+                    <table>
+                        <tr>
+                            <td>Mobile Number :</td>
+                            <td><input type="number"></td>
+                        </tr>
+                        <tr>
+                            <td>Email Id :</td>
+                            <td><input type="email"></td>
+                        </tr>
+                        <tr>
+                            <td>Date of Birth :</td>
+                            <td><input type="date"></td>
+                        </tr>
+                        <tr>
+                            <td>Gender :</td>
+                            <td><select name="cars" id="cars">
+                                    <option value="volvo">Gender</option>
+                                    <option value="saab">Male</option>
+                                    <option value="mercedes">Female</option>
+                                    <option value="audi">Other</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td>Currently Studying In:</td>
+                            <td><select name="cars" id="cars">
+                                    <option value="volvo">School</option>
+                                    <option value="saab">Saab</option>
+                                    <option value="mercedes">Mercedes</option>
+                                    <option value="audi">Audi</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td>Address :</td>
+                            <td><input type="textbox"></td>
+                        </tr>
+                        <tr>
+                            <td>City :</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>State :</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Pincode :</td>
+                            <td><input type="pincode"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="basic-information">
+                <div class="icon-title">
+                    <i class="fa-solid fa-user"></i>
+                    <h3>School Information</h3>
+                </div>
+                <div class="information-table">
+                    <table>
+                        <tr>
+                            <td>Class :</td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <td>School Unique ID :</td>
+                            <td>5417</td>
+                        </tr>
+                        <tr>
+                            <td>School Name :</td>
+                            <td>D.A.V. Public School</td>
+                        </tr>
+                        <tr>
+                            <td>Principal Name :</td>
+                            <td>Ankita Makkar</td>
+                        </tr>
+                        <tr>
+                            <td>Address :</td>
+                            <td>D.A.V. Public Schol, Sector-14 Gurgaon</td>
+                        </tr>
+                        <tr>
+                            <td>City :</td>
+                            <td>Gurgaon</td>
+                        </tr>
+                        <tr>
+                            <td>State :</td>
+                            <td>Haryana</td>
+                        </tr>
+                        <tr>
+                            <td>Pincode :</td>
+                            <td>122001</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="basic-information">
+                <div class="icon-title">
+                    <i class="fa-solid fa-user"></i>
+                    <h3>School Information</h3>
+                </div>
+                <div class="information-table">
+                    <table>
+                        <tr>
+                            <td>Class :</td>
+                            <td><select name="cars" id="cars">
+                                    <option value="volvo">class</option>
+                                    <option value="saab">1</option>
+                                    <option value="mercedes">2</option>
+                                    <option value="audi">3</option>
+                                    <option value="audi">4</option>
+                                    <option value="audi">5</option>
+                                    <option value="audi">6</option>
+                                    <option value="audi">7</option>
+                                    <option value="audi">8</option>
+                                    <option value="audi">9</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td>School Name :</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Principal Name :</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>School Contact Number :</td>
+                            <td><input type="number"></td>
+                        </tr>
+                        <tr>
+                            <td>School Contact Person:</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Address :</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>City :</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>State :</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Pincode :</td>
+                            <td><input type="pincode"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="basic-information">
+                <div class="icon-title">
+                    <i class="fa-solid fa-user"></i>
+                    <h3>College Information</h3>
+                </div>
+                <div class="information-table">
+                    <table>
+                        <tr>
+                            <td>Current Year :</td>
+                            <td><select name="cars" id="cars">
+                                    <option value="volvo">School</option>
+                                    <option value="saab">Saab</option>
+                                    <option value="mercedes">Mercedes</option>
+                                    <option value="audi">Audi</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td>College Name :</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Address :</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>City :</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>State :</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Pincode :</td>
+                            <td><input type="pincode"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer">
+                <div class="main-logo"><img src="assets/img/logo.png" class="img-fluid" alt="Logo"></div>
+                <div class="tutor-service-about">
+                    <p>Tutors</p>
+                    <p>Our Services</p>
+                    <p>About Us</p>
+                </div>
+                <div class="contact-use">
+                    <p>Contact Us</p>
+                    <p>How to Use</p>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>
