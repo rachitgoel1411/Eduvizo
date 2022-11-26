@@ -1,0 +1,22 @@
+.accordion .accordion-item .collapse{
+    visibility: visible;
+}
+
+.faq {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.accordion {
+    width: 40%;
+}
+
+.accordion  .accordion-body h2 {
+    font-weight: bold;
+}
+
+#question-answer-heading {
+    font-size: 3rem;
+    text-align: center;
+}

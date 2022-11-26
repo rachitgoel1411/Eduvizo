@@ -72,7 +72,7 @@ body {
 
 .whyEduvizo p{
     font-weight: 400;
-    width: 70%;
+    width: 90%;
 }
 
 
@@ -98,15 +98,17 @@ body {
 
 .question-para {
     color: #007FFF;
+    
 }
 
-.what-we-found {
-   
+.question .para-1{
+  font-size: 1.25rem;
 }
 
 .outer-div-progress {
-    
-    position: relative;
+  
+  width: fit-content;
+  position: relative;
 }
 
 .progress {
@@ -114,13 +116,16 @@ body {
     height: 150px !important;
     float: left; 
     line-height: 150px;
-    background: rgb(240, 237, 237);
+    background: gray;
     margin: 20px;
     box-shadow: none;
     position: relative;
-   
-    padding-bottom: 60px;
+    border-radius: 100%;
+    
+    border: 1px solid gray;
   }
+
+ 
 
   .progress-para {
     z-index: 2;
@@ -234,6 +239,7 @@ body {
   .progress.yellow4 .progress-right .progress-bar {
     
     animation: loading-4 1.8s linear forwards;
+    
   }
   .progress.yellow4 .progress-left .progress-bar {
     animation: none;
@@ -285,6 +291,7 @@ body {
 .card-img-top{
   width: 50%;
   margin: auto;
+  border-radius: 100%;
 }
 
 .student-rating{
@@ -321,7 +328,6 @@ body {
   position: absolute;
   display: flex;
   top: 60%;
-  left: 10%;
   width: 60%;
 }
 
@@ -329,7 +335,7 @@ body {
   background-color: white;
   height: 100px;
   width: 2px;
-  
+  margin: auto;
 }
 
 .download-rating h2 {
@@ -370,48 +376,109 @@ body {
 
 }
 
-.contact-us-div {
+.about-us-div {
+ 
+  width: 90%;
+  margin: auto;
   margin-top: 300px;
-  height: 250px;
+}
+
+.about-us-div .about-title {
+ font-size: 3rem;
+ font-weight: 500;
+text-align: center;
+}
+
+.about-us-div .about-info {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.about-us-div .founderCofounder .card-deck {
+  width: 100%;
+}
+
+.about-us-div .founderCofounder .card-deck .card {
+  filter :none;
+  /* box-shadow: 0 0 5px 2px grey; */
+  border: none;
+}
+
+.about-us-div .founderCofounder .card-deck .card .linkedin-btn {
+  background-color: #F9AF2A;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  width: 5rem;
+}
+
+.contact-us-div {
+  margin-top: 100px;
+  height: 200px;
   width: 100%;
   background-color: #0091DC;
   z-index: 8;
+  text-align: center;
+}
+
+.contact-us-div .contact-us {
+  width: 50%;
+  height: 100%;
+ 
+  margin: auto;
   display: flex;
+  justify-content: center;
+}
+
+.download-rating .contact-img {
+  width: 50%;
   
 }
 
-
-.contact-us-div .contact, .contact-img {
-  width: 50%;
+.download-rating {
+  
+  width: 100%;
+  margin: auto;
 }
 
 
-
-.contact-us-div .contact h1 {
+.contact-us-div .contact-us h1 {
   font-size: 3rem;
   color: white;
-  text-align: center;
-  margin-top: 15%;
+  margin: auto;
+  
 }
+
+.contact-us-div {
+  border: 1px solid black;
+}
+
+
 
 .contact-form {
  
   height: 110vh;
   display:flex ;
+  flex-direction: column;
 }
 
 .form-page{
   background: rgba(0, 145, 220, 0.09);
   width: 70%;
   margin: auto;
-  margin-top: 200px;
+ 
   padding: 40px;
 }
+
+
+
 
 .contact-form .form-page .btn {
   background-color: #F9AF2A;
   border-color: #F9AF2A;
   width: 300px;
+
+  text-align: center;
 }
 .email-details{
 
@@ -450,18 +517,18 @@ body {
 
 .connect-brands .fa-facebook {
   color:  #2153AD;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 
 .connect-brands .fa-linkedin {
   color:  #0966C2;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .connect-brands .fa-square-instagram{
   color:#FC71A3 ;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 
@@ -546,6 +613,14 @@ footer .footer .tutor-service-about{
       background-color: black;
     }
 
+
+    .about-us-div {
+    
+      width: 90%;
+      margin: auto;
+      margin-top: 245px;
+    }
+
     .contact-us-div .contact h1 {
       font-size: 2rem;
     }
@@ -572,5 +647,8 @@ footer .footer .tutor-service-about{
       width: 90%;
     }
 
-    
+    .download-rating .contact-img {
+      display: none;
+      
+    }
 }
