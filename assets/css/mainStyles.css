@@ -1,86 +1,88 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
 }
 
 body {
-    background-color: white;
+  background-color: white;
 }
 
 .header {
-    position: sticky;
-    top: 0px;
-    z-index: 10;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
 }
-.navbar{
-    border-bottom-left-radius:10px;
-    border-bottom-right-radius:10px;
-    
+
+.navbar {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
 }
 
 .carousel-inner {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .carousel-item img {
   height: 180px;
 }
 
-.right-icon, .left-icon {
-    font-size: 3rem;
-    color: black;
+.right-icon,
+.left-icon {
+  font-size: 3rem;
+  color: black;
 }
 
 
-.card-deck{
-    width: 95%;
-    margin: auto;
-    margin-top: 2rem;
-    
+.card-deck {
+  width: 95%;
+  margin: auto;
+  margin-top: 2rem;
+
 }
 
 .card-deck .card {
-    border-radius: 20px;
-    border-top: none;
-    filter: drop-shadow(0px 30px 10px #D6F1FF);
+  border-radius: 20px;
+  border-top: none;
+  filter: drop-shadow(0px 30px 10px #D6F1FF);
 }
 
-.card-deck .card .card-body{
-    text-align: center;
+.card-deck .card .card-body {
+  text-align: center;
 }
 
-.card-deck .card .card-body h5{
-    font-weight: bolder;
-    font-size: 1.5rem;
-    text-align: center;
+.card-deck .card .card-body h5 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 
 .whyEduvizo {
-    width: 90%;
-    margin: auto;
-    margin-top: 80px;
+  width: 90%;
+  margin: auto;
+  margin-top: 80px;
 }
 
 .whyEduvizo h2 {
-    font-size: 2rem;
-    font-weight:500; 
-    color: #0091DC;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #0091DC;
 }
 
-.whyEduvizo p{
-    font-weight: 400;
-    width: 90%;
+.whyEduvizo p {
+  font-weight: 400;
+  width: 90%;
 }
 
 
 
-.reallyNeedEduvizo{
-    width: 90%;
-    margin: auto;
-    margin-top: 50px;
+.reallyNeedEduvizo {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
 }
 
 /* .question-imgVector{
@@ -88,216 +90,239 @@ body {
 } */
 
 
-.img-vector img{
-    height: 200px;
+.img-vector img {
+  height: 200px;
 }
-.question h2{
-    font-size: 2.5rem;
-    font-weight: bolder;
+
+.question h2 {
+  font-size: 2.5rem;
+  font-weight: bolder;
 }
 
 .question-para {
-    color: #007FFF;
-    
+  color: #007FFF;
+
 }
 
-.question .para-1{
+.question .para-1 {
   font-size: 1.25rem;
 }
 
 .outer-div-progress {
-  
+
   width: fit-content;
   position: relative;
 }
 
 .progress {
-    width: 150px;
-    height: 150px !important;
-    float: left; 
-    line-height: 150px;
-    background: gray;
-    margin: 20px;
-    box-shadow: none;
-    position: relative;
-    border-radius: 100%;
-    
-    border: 1px solid gray;
-  }
+  width: 150px;
+  height: 150px !important;
+  float: left;
+  line-height: 150px;
+  background: gray;
+  margin: 20px;
+  box-shadow: none;
+  position: relative;
+  border-radius: 100%;
 
- 
-
-  .progress-para {
-    z-index: 2;
-    position: absolute;
-    top: 168px;
-    left: 50px;
-  }
-  .progress:after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    border: 12px solid #fff;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  .progress>span {
-    width: 50%;
-    height: 100%;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    z-index: 1;
-  }
-  .progress .progress-left {
-    left: 0;
-  }
-  .progress .progress-bar {
-    width: 100%;
-    height: 100%;
-    background: none;
-    border-width: 12px;
-    border-style: solid;
-    position: absolute;
-    top: 0;
-  }
-  .progress .progress-left .progress-bar {
-    left: 100%;
-    border-top-right-radius: 80px;
-    border-bottom-right-radius: 80px;
-    border-left: 0;
-    -webkit-transform-origin: center left;
-    transform-origin: center left;
-  }
-  .progress .progress-right {
-    right: 0;
-  }
-  .progress .progress-right .progress-bar {
-    left: -100%;
-    border-top-left-radius: 80px;
-    border-bottom-left-radius: 80px;
-    border-right: 0;
-    -webkit-transform-origin: center right;
-    transform-origin: center right;
-    animation: loading-1 1.8s linear forwards;
-  }
-  .progress .progress-value {
-    width: 90%;
-    height: 90%;
-    border-radius: 50%;
-    background: #F1FAFF;
-    font-size: 24px;
-    color: #007FFF;
-    line-height: 135px;
-    text-align: center;
-    position: absolute;
-    top: 5%;
-    left: 5%;
-  }
-  
-  .progress.yellow .progress-bar {
-    border-color: #F21F42;
-  }
-  .progress.yellow .progress-right .progress-bar {
-    
-    animation: loading-1 1.8s linear forwards;
-  }
-  .progress.yellow .progress-left .progress-bar {
-    animation: none;
-  }
-  
-  
-  .progress.yellow2 .progress-bar {
-    border-color: #F21F42;
-  }
-  .progress.yellow2 .progress-right .progress-bar {
-    
-    animation: loading-2 1.8s linear forwards;
-  }
-  .progress.yellow2 .progress-left .progress-bar {
-    animation: none;
-  }
-  
-  
-  .progress.yellow3 .progress-bar {
-    border-color: #F21F42;
-  }
-  .progress.yellow3 .progress-right .progress-bar {
-    
-    animation: loading-3 1.8s linear forwards;
-  }
-  .progress.yellow3 .progress-left .progress-bar {
-    animation: none;
-  }
-  
-  
-  .progress.yellow4 .progress-bar {
-    border-color: #F21F42;
-  }
-  .progress.yellow4 .progress-right .progress-bar {
-    
-    animation: loading-4 1.8s linear forwards;
-    
-  }
-  .progress.yellow4 .progress-left .progress-bar {
-    animation: none;
-  }
-  
-  @keyframes loading-1 {
-    0% {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-    100% {
-      -webkit-transform: rotate(180deg);
-      transform: rotate(50deg);
-    }
-  }
-  @keyframes loading-2 {
-    0% {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-    100% {
-      -webkit-transform: rotate(144deg);
-      transform: rotate(144deg);
-    }
-  }
-  @keyframes loading-3 {
-    0% {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-    100% {
-      -webkit-transform: rotate(135deg);
-      transform: rotate(45deg);
-    }
-  }
-  
-  @keyframes loading-4 {
-    0% {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-    100% {
-      -webkit-transform: rotate(135deg);
-      transform: rotate(135deg);
-    }
-  }
+  border: 1px solid gray;
+}
 
 
-.card-img-top{
+
+.progress-para {
+  z-index: 2;
+  position: absolute;
+  top: 168px;
+  left: 50px;
+}
+
+.progress:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 12px solid #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.progress>span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.progress .progress-left {
+  left: 0;
+}
+
+.progress .progress-bar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 12px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+}
+
+.progress .progress-left .progress-bar {
+  left: 100%;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+}
+
+.progress .progress-right {
+  right: 0;
+}
+
+.progress .progress-right .progress-bar {
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+  animation: loading-1 1.8s linear forwards;
+}
+
+.progress .progress-value {
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  background: #F1FAFF;
+  font-size: 24px;
+  color: #007FFF;
+  line-height: 135px;
+  text-align: center;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.progress.yellow .progress-bar {
+  border-color: #F21F42;
+}
+
+.progress.yellow .progress-right .progress-bar {
+
+  animation: loading-1 1.8s linear forwards;
+}
+
+.progress.yellow .progress-left .progress-bar {
+  animation: none;
+}
+
+
+.progress.yellow2 .progress-bar {
+  border-color: #F21F42;
+}
+
+.progress.yellow2 .progress-right .progress-bar {
+
+  animation: loading-2 1.8s linear forwards;
+}
+
+.progress.yellow2 .progress-left .progress-bar {
+  animation: none;
+}
+
+
+.progress.yellow3 .progress-bar {
+  border-color: #F21F42;
+}
+
+.progress.yellow3 .progress-right .progress-bar {
+
+  animation: loading-3 1.8s linear forwards;
+}
+
+.progress.yellow3 .progress-left .progress-bar {
+  animation: none;
+}
+
+
+.progress.yellow4 .progress-bar {
+  border-color: #F21F42;
+}
+
+.progress.yellow4 .progress-right .progress-bar {
+
+  animation: loading-4 1.8s linear forwards;
+
+}
+
+.progress.yellow4 .progress-left .progress-bar {
+  animation: none;
+}
+
+@keyframes loading-1 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(50deg);
+  }
+}
+
+@keyframes loading-2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(144deg);
+    transform: rotate(144deg);
+  }
+}
+
+@keyframes loading-3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(135deg);
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes loading-4 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+}
+
+
+.card-img-top {
   width: 50%;
   margin: auto;
   border-radius: 100%;
 }
 
-.student-rating{
+.student-rating {
   margin-top: 100px;
   position: relative;
-  
+
 }
 
 .student-rating h1 {
@@ -344,7 +369,7 @@ body {
   color: white;
 }
 
-.download-rating p{
+.download-rating p {
   color: white;
 }
 
@@ -352,7 +377,7 @@ body {
   color: #F9AF2A;
 }
 
-.rating .rating-star .half-star{
+.rating .rating-star .half-star {
   color: #F9AF2A;
 }
 
@@ -365,7 +390,7 @@ body {
 .download {
   width: 45%;
   margin: auto;
- 
+
   text-align: center;
 }
 
@@ -377,16 +402,29 @@ body {
 }
 
 .about-us-div {
- 
-  width: 90%;
+
+  width: 100%;
   margin: auto;
-  margin-top: 300px;
+  margin-top: 350px;
 }
 
+.blue-box-title-section {
+  background-color: #0091DC;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
 .about-us-div .about-title {
- font-size: 3rem;
- font-weight: 500;
-text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  width: 50%;
+
+  margin: auto;
 }
 
 .about-us-div .about-info {
@@ -399,7 +437,7 @@ text-align: center;
 }
 
 .about-us-div .founderCofounder .card-deck .card {
-  filter :none;
+  filter: none;
   /* box-shadow: 0 0 5px 2px grey; */
   border: none;
 }
@@ -424,7 +462,7 @@ text-align: center;
 .contact-us-div .contact-us {
   width: 50%;
   height: 100%;
- 
+
   margin: auto;
   display: flex;
   justify-content: center;
@@ -432,11 +470,14 @@ text-align: center;
 
 .download-rating .contact-img {
   width: 50%;
-  
+}
+
+.download-rating .contact-img img {
+  width: 80%;
 }
 
 .download-rating {
-  
+
   width: 100%;
   margin: auto;
 }
@@ -446,7 +487,7 @@ text-align: center;
   font-size: 3rem;
   color: white;
   margin: auto;
-  
+
 }
 
 .contact-us-div {
@@ -456,17 +497,17 @@ text-align: center;
 
 
 .contact-form {
- 
+
   height: 110vh;
-  display:flex ;
+  display: flex;
   flex-direction: column;
 }
 
-.form-page{
+.form-page {
   background: rgba(0, 145, 220, 0.09);
   width: 70%;
   margin: auto;
- 
+
   padding: 40px;
 }
 
@@ -480,7 +521,8 @@ text-align: center;
 
   text-align: center;
 }
-.email-details{
+
+.email-details {
 
   height: 200px;
   width: 20%;
@@ -503,11 +545,11 @@ text-align: center;
   font-weight: 600;
 }
 
-.email-details p{
+.email-details p {
   color: #0091DC;
 }
 
-.connect-brands{
+.connect-brands {
 
   width: 80%;
   display: flex;
@@ -516,139 +558,143 @@ text-align: center;
 }
 
 .connect-brands .fa-facebook {
-  color:  #2153AD;
+  color: #2153AD;
   font-size: 2rem;
 }
 
 
 .connect-brands .fa-linkedin {
-  color:  #0966C2;
+  color: #0966C2;
   font-size: 2rem;
 }
 
-.connect-brands .fa-square-instagram{
-  color:#FC71A3 ;
+.connect-brands .fa-square-instagram {
+  color: #FC71A3;
   font-size: 2rem;
 }
 
 
-footer .footer .main-logo{
+footer .footer .main-logo {
   display: flex;
 
   justify-content: center;
- }
+}
 
 
-footer .footer .tutor-service-about{
+footer .footer .tutor-service-about {
   display: flex;
 
   justify-content: space-around;
   width: 60%;
   margin: auto;
   color: #2681B0;
- }
+}
 
- footer .footer .contact-use{
-   display: flex;
-   
-   justify-content: space-around;
-   width: 60%;
-   margin: auto;
-   color: #2681B0;
- }
+footer .footer .contact-use {
+  display: flex;
 
-
-
-@media screen and (max-width: 600px) /*===============Mobile==================*/
-{
-    .carousel-inner {
-        margin-top: 1rem;
-    }
-
-    .right-icon, .left-icon {
-        font-size: 1rem;
-        color: black;
-    }
-
-    .whyEduvizo p{
-        font-weight: 400;
-        width: 100%;
-    }
-
-    .whyEduvizo img{
-        width: 100%;
-    }
-
-    .download-rating {
-      top: 160%;
-      width: 100%;
-      left: 1%;
-    
-      
-    }
-  
-
-    .download-rating .download {
-      text-align: center;
-   
-    }
-
-    .download-rating .rating{
-      text-align: center;
-  
-    }
-
-    .download-rating p{
-      color: black;
-    }
-    .download-rating .download h2{
-      color: black;
-    }
-
-    .download-rating .rating h3{
-      color: black;
-    }
-    
-    .download-rating .vertical-line {
-      background-color: black;
-    }
+  justify-content: space-around;
+  width: 60%;
+  margin: auto;
+  color: #2681B0;
+}
 
 
-    .about-us-div {
-    
-      width: 90%;
-      margin: auto;
-      margin-top: 245px;
-    }
 
-    .contact-us-div .contact h1 {
-      font-size: 2rem;
-    }
+@media screen and (max-width: 600px)
 
-    .contact-form {
-      flex-direction: column;
-    }
+/*===============Mobile==================*/
+  {
+  .carousel-inner {
+    margin-top: 1rem;
+  }
 
-    .contact-form .form-page .btn {
-      width: 100%;
-    }
+  .right-icon,
+  .left-icon {
+    font-size: 1rem;
+    color: black;
+  }
 
-    .form-page h1 {
-      font-size: 2rem;
-    }
-    
-    .form-page{
-      background: none;
-      
-      padding: 0px;
-    }
+  .whyEduvizo p {
+    font-weight: 400;
+    width: 100%;
+  }
 
-    .email-details {
-      width: 90%;
-    }
+  .whyEduvizo img {
+    width: 100%;
+  }
 
-    .download-rating .contact-img {
-      display: none;
-      
-    }
+  .download-rating {
+    top: 160%;
+    width: 100%;
+    left: 1%;
+
+
+  }
+
+
+  .download-rating .download {
+    text-align: center;
+
+  }
+
+  .download-rating .rating {
+    text-align: center;
+
+  }
+
+  .download-rating p {
+    color: black;
+  }
+
+  .download-rating .download h2 {
+    color: black;
+  }
+
+  .download-rating .rating h3 {
+    color: black;
+  }
+
+  .download-rating .vertical-line {
+    background-color: black;
+  }
+
+
+  .about-us-div {
+
+    width: 90%;
+    margin: auto;
+    margin-top: 245px;
+  }
+
+  .contact-us-div .contact h1 {
+    font-size: 2rem;
+  }
+
+  .contact-form {
+    flex-direction: column;
+  }
+
+  .contact-form .form-page .btn {
+    width: 100%;
+  }
+
+  .form-page h1 {
+    font-size: 2rem;
+  }
+
+  .form-page {
+    background: none;
+
+    padding: 0px;
+  }
+
+  .email-details {
+    width: 90%;
+  }
+
+  .download-rating .contact-img {
+    display: none;
+
+  }
 }
