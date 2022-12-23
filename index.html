@@ -34,6 +34,10 @@
 
   <link rel="stylesheet" href="assets/css/faq.css">
 
+
+  
+
+
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
                 <script src="assets/js/html5shiv.min.js"></script>
@@ -133,7 +137,7 @@
 
       .navbar-brand.logo img {
         position: absolute !important;
-        top: 20px !important;
+        top: 10px !important;
         right: 10px !important;
       }
     }
@@ -155,7 +159,12 @@
 <body>
   <!-- Main Wrapper -->
   <div class="main-wrapper">
-
+    <a
+      href="https://api.whatsapp.com/send?phone=919838377955&text=Hey there, Please let me know the procedure to connect.">
+      <i class="fa-brands fa-whatsapp absolute-whatsapp-icon">
+        <span class="whatsapp-tooltip">Contact Us</span></i></a>
+    <!-- <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-f4f230d2-a573-4fc0-b89b-02247151008c"></div>  -->
     <!-- Header -->
     <header class="header">
       <nav class="navbar navbar-expand-lg header-nav">
@@ -168,13 +177,13 @@
             </span>
           </a>
           <a href="index.html" class="navbar-brand logo">
-            <img src="assets/img/logo.png" class="img-fluid" alt="Logo">
+            <img src="assets\img\vertical logo.png" class="img-fluid img-logo" alt="Logo">
           </a>
         </div>
         <div class="main-menu-wrapper">
           <div class="menu-header">
             <a href="index.html" class="menu-logo">
-              <img src="assets/img/logo.png" class="img-fluid" alt="Logo">
+              <img src="assets\img\vertical logo.png" class="img-fluid img-logo" alt="Logo">
             </a>
             <a id="menu_close" class="menu-close" href="javascript:void(0);">
               <i class="fas fa-times"></i>
@@ -188,21 +197,21 @@
 
 
             <li class="active">
-              <a href="#aboutUs">About Us</a>
+              <a href="#about-sect-nav">About Us</a>
             </li>
 
 
 
             <li class="active">
-              <a href="#careeroptions">Career Options</a>
+              <a href="#careeroptions-sect-nav">Career Options</a>
             </li>
 
             <li class="active">
-              <a href="#testimonials">Testimonials</a>
+              <a href="#testimonials-sect-nav">Testimonials</a>
             </li>
 
             <li class="active">
-              <a href="#contact">Contact Us</a>
+              <a href="#contact-sect-nav">Contact Us</a>
             </li>
 
 
@@ -241,7 +250,7 @@
             <div class="card-body">
               <h5 class="card-title">Career Guidance</h5>
               <p class="card-text">Discuss your college and branch options.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <button class="card-button">Click Here</button>
             </div>
           </a>
         </div>
@@ -251,7 +260,7 @@
             <div class="card-body">
               <h5 class="card-title">Admission Counselling</h5>
               <p class="card-text">Discuss your college and branch options.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <button class="card-button">Click Here</button>
             </div>
           </a>
         </div>
@@ -261,7 +270,7 @@
             <div class="card-body">
               <h5 class="card-title">Exam Preparation Guidance</h5>
               <p class="card-text">Discuss your college and branch options.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <button class="card-button">Click Here</button>
             </div>
           </a>
         </div>
@@ -273,42 +282,128 @@
         <div class="card">
           <a href="https://topmate.io/eduvizo_india/87653">
             <div class="card-body">
-              <h5 class="card-title">Placement/Internship Guidance</h5>
+              <h5 class="card-title">Placement/Internship</h5>
               <p class="card-text">Discuss your college and branch options.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <button class="card-button">Click Here</button>
             </div>
           </a>
         </div>
 
         <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Subject related doubts</h5>
-            <p class="card-text">Discuss your college and branch options.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
+          <a href="#">
+            <div class="card-body">
+              <h5 class="card-title">Subject related doubts</h5>
+              <p class="card-text">Discuss your college and branch options.</p>
+              <button class="card-button">Click Here</button>
+            </div>
+          </a>
         </div>
 
         <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">More Coming Soon .....</h5>
-            <p class="card-text">Discuss your college and branch options.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
+          <a href="#">
+            <div class="card-body">
+              <h5 class="card-title">More Coming Soon .....</h5>
+              <p class="card-text">Discuss your college and branch options.</p>
+              <button class="card-button">Click Here</button>
+            </div>
+          </a>
         </div>
 
       </div>
     </div>
 
     <div class="whyEduvizo">
-      <h2>What is Eduvizo? </h2>
-      <p>Eduvizo is an IIT students-led startup aiming to help you get the college you truly deserve. It is supported by
-        IIT Mandi Catalyst (A government incubator) and is recognized by various IITs. We are proud of our vast network
-        of tutors from
-        prestigious colleges, ready to help you
-        choose the right college.</p>
-      <img src="assets\img\why_eduvizo.png">
-    </div>
+      <!-- <h2>What is Eduvizo? </h2><br> -->
+      <div class="paragraph-image">
+        <div class="why-choose-us-section">
+          <h3 class="why">Why</h3>
+          <h3 class="choose-title">Choose <span style="color: black;">Eduvizo?</span></h3><br>
+          <button type="button" class="btn btn-outline-primary margin-up-btn">Unbiased</button>
+          <button type="button" class="btn btn-outline-primary margin-up-btn">Cost-effective</button>
+          <button type="button" class="btn btn-outline-primary margin-up-btn">Easy to use</button><br>
+          <button type="button" class="btn btn-outline-primary margin-bottom-btn">Helps you to get first hand
+            account</button><br><br>
+          <div class="arrow-info">
+            <img class="arrow-vector" src="assets\img\Vector.png">
+            <p>We host a large network of mentors across domains from prestigious institutions like IITs, AIIMS, NLUs,
+              NIFTs, IIMs etc</p>
+          </div><br>
+          <div class="arrow-info">
+            <img class="arrow-vector" src="assets\img\Vector.png">
+            <p>We maintain an elder brotherly/sisterly relationship with our users, with constant follow-ups to help you
+              achieve your ambitions. Thus, adding success stories to the Eduvizo family</p>
+          </div>
 
+        </div>
+        <img src="assets\img\why_eduvizo.png">
+      </div>
+    </div><br>
+
+    <div id="services-section-division"></div>
+    <div class="our-services-div">
+      <div class="our-services-div-heading">
+        <h3>Our</h3>
+        <h3 style="color: white;">Services</h3>
+      </div><br>
+
+      <div class="services">
+        <div class="service-1">
+          <div class="seminar">
+            <svg height="110" width="300">
+              <polygon points="50 3, 100 28, 100 75, 50 100, 3 75, 3 25" fill="#F65555" />
+            </svg>
+            <img class="vect-1-absolute" src="assets\img\vect1.png">
+            <p>Live Seminar in your school.</p>
+          </div>
+
+          <div class="session">
+            <svg height="110" width="300">
+              <polygon points="50 3, 100 28, 100 75, 50 100, 3 75, 3 25" fill="#B468FF" />
+            </svg>
+            <img class="vect-2-absolute" src="assets\img\vect2.png">
+            <p>One-on-One video call session with each student.</p>
+          </div>
+        </div>
+
+        <div class="service-2">
+          <div class="seminar">
+            <svg height="110" width="300">
+              <polygon points="50 3, 100 28, 100 75, 50 100, 3 75, 3 25" fill="#FE8947" />
+            </svg>
+            <img class="vect-1-absolute" src="assets\img\vect3.png">
+            <p>Access to all the tutors across domains.</p>
+          </div>
+
+          <div class="session">
+            <svg height="110" width="300">
+              <polygon points="50 3, 100 28, 100 75, 50 100, 3 75, 3 25" fill="#00BF9D" />
+            </svg>
+            <img class="session-img" src="assets\img\vect4.png">
+            <p>Unlimited queries on the platform.</p>
+          </div>
+        </div>
+
+        <div class="service-3">
+
+          <div class="seminar">
+            <svg height="110" width="300">
+              <polygon points="50 3, 100 28, 100 75, 50 100, 3 75, 3 25" fill="#5582F6" />
+            </svg>
+            <img class="vect-1-absolute" src="assets\img\vect5.png">
+            <p>Early access to the doubt solving platform.</p>
+          </div>
+
+          <div class="session">
+            <svg height="110" width="300">
+              <polygon points="50 3, 100 28, 100 75, 50 100, 3 75, 3 25" fill="#FFB039" />
+            </svg>
+            <img class="session-img" src="assets\img\vect6.png">
+            <p>Free Admission counselling.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
     <div class="reallyNeedEduvizo">
       <div class="question-imgVector">
         <div class="question">
@@ -382,47 +477,37 @@
       </div>
     </div>
 
+    <div id="testimonials-sect-nav"></div>
     <div id="testimonials" class="student-rating">
       <h1>Students are Loving Us !</h1>
-      <div class="card-deck">
-        <div class="card">
-          <img class="card-img-top" src="assets\img\blank_profile_pic.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Student Name</h5>
-            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum et dicta harum
-              perferendis, a quisquam voluptates? Ipsa eum ullam dolorem nostrum nisi animi voluptates ipsum ab! Placeat
-              obcaecati ab quo?</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
+
+      <div class="container flex">
+        <div class="item flex-item">
+          <p class="card-text">The session went well. It greatly aided in my questions being answered.</p>
+          <h5 class="card-title">- Aryan</h5>
         </div>
-
-        <div class="card">
-          <img class="card-img-top" src="assets\img\blank_profile_pic.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Student Name</h5>
-            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum et dicta harum
-              perferendis, a quisquam voluptates? Ipsa eum ullam dolorem nostrum nisi animi voluptates ipsum ab! Placeat
-              obcaecati ab quo?</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
+        <div class="item flex-item">
+          <p class="card-text">I'd suggest it to everyone as it was the best career guidance session I've ever had.</p>
+          <h5 class="card-title">- Ayush Lakhotia</h5>
         </div>
-
-        <div class="card">
-          <img class="card-img-top" src="assets\img\blank_profile_pic.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Student Name</h5>
-            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum et dicta harum
-              perferendis, a quisquam voluptates? Ipsa eum ullam dolorem nostrum nisi animi voluptates ipsum ab! Placeat
-              obcaecati ab quo?</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
+        <div class="item flex-item">
+          <p class="card-text">unbiased counselling nice insights. very much satisfied</p><br>
+          <h5 class="card-title">- Ankit Kumar Mitra</h5>
         </div>
-
-
+        <div class="item flex-item">
+          <p class="card-text">unbiased counselling nice insights. very much satisfied</p>
+          <h5 class="card-title">- Ankit Kumar Mitra</h5>
+        </div>
+        <div class="item flex-item">
+          <p class="card-text">unbiased counselling nice insights. very much satisfied</p>
+          <h5 class="card-title">- Ankit Kumar Mitra</h5>
+        </div>
       </div>
 
+
+
       <div class="blue-box">
-        <div class="download-rating">
+        <!-- <div class="download-rating">
           <div class="download">
             <h2>2.2M+</h2>
             <p>app downloads</p>
@@ -443,636 +528,724 @@
 
           </div>
           <div class="contact-img"><img src="assets\img\contactus [Converted]-01.png"></div>
-        </div>
+        </div> -->
       </div>
     </div>
 
+    <div id="about-sect-nav"></div>
     <div id="aboutUs" class="about-us-div">
-      <div class="blue-box-title-section"><h1 class="about-title">About Us</h1><br></div>
-      
-      <p class="about-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, dignissimos. Nihil, velit!
-        Praesentium, laudantium! Veniam ratione explicabo, eveniet minima exercitationem quia consequuntur quae modi
-        similique doloribus, ducimus possimus, vel error sed mollitia quos corporis repellat voluptate excepturi beatae
-        odit fuga! Neque excepturi, repellat laborum laudantium rerum ex, natus maiores molestias, repellendus
-        voluptatibus libero voluptatem nihil exercitationem veniam atque. Architecto culpa, voluptatum in earum
-        voluptatem repellendus exercitationem consequuntur unde sapiente aut voluptatibus voluptate adipisci, a rem
-        beatae eaque totam sit ipsam tempora veritatis. Beatae necessitatibus quaerat inventore nisi. Recusandae dicta
-        qui minima tempore aut est, obcaecati totam magnam? Provident, accusamus officiis.</p><br>
+      <div class="blue-box-title-section">
+        <h1 class="about-title">About Us</h1><br>
+      </div><br>
+
+      <p class="about-info">Eduvizo is an IITians' initiative to help you assess various career options and choose the
+        right one for YOU in an extremely convenient and cost-effective manner. Eduvizo is incubated at the IIT Mandi
+        Catalyst, a Central Government funded state of the art incubator. We have created a web-based platform where
+        students can connect with mentors (industry and academic experts from tier 1 colleges and companies) in a
+        one-on-one interaction to solve their queries regarding career, college admissions, subject related questions,
+        exam preparation and many more. Till date Eduvizo has helped more than 250 students in their career related
+        queries. We pride in our team and their dedication towards helping you which is evident by our user rating of
+        9.4<i class="fa-solid fa-star"></i>.</p><br>
 
       <div class="founderCofounder">
         <div class="card-deck">
 
           <div class="card">
-            <img class="card-img-top" src="assets\img\Rachit.jpg" alt="Card image cap">
+            <img class="card-img-top" src="assets\img\vastav bansal.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Rachit Goel</h5>
-              <h3>Founder and CEO</h3><br>
-              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum et dicta harum
-                perferendis, a quisquam voluptates? Ipsa eum ullam dolorem nostrum nisi animi voluptates ipsum ab!
-                Placeat
-                obcaecati ab quo?</p>
-              <button class="linkedin-btn">LinkedIn</button>
+              <h5 class="card-title">Vastav Bansal</h5>
+              <h3>Co-Founder and CEO</h3><br>
+              <p class="card-text">Vastav is pursuing B.Tech. in
+                Computer Science from IIT Mandi.
+                He is very much enthusiastic about
+                letting students choose the
+                right career path.</p>
+              <i class="fa-brands fa-linkedin linked-in-profile-icon"></i>
             </div>
           </div>
 
           <div class="card">
-            <img class="card-img-top" src="assets\img\vastav bansal.jpg" alt="Card image cap">
+            <img class="card-img-top" src="assets\img\Rachit.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Vastav Bansal</h5>
-              <h3>Co-Founder and CTO</h3><br>
-              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum et dicta harum
-                perferendis, a quisquam voluptates? Ipsa eum ullam dolorem nostrum nisi animi voluptates ipsum ab!
-                Placeat
-                obcaecati ab quo?</p>
-              <button class="linkedin-btn">LinkedIn</button>
+              <h5 class="card-title">Rachit Goel</h5>
+              <h3>Co-Founder and COO</h3><br>
+              <p class="card-text">Rachit is pursuing B.Tech. in Mechanical Engineering from IIT Mandi. He mentored over
+                100+ students in letting them choose the right path.</p>
+              <i class="fa-brands fa-linkedin linked-in-profile-icon"></i>
             </div>
           </div>
 
 
         </div>
+
       </div>
+
     </div><br>
 
-    <div class="question-answers">
-      <h1 id="question-answer-heading">Career Options</h1><br>
+    <div id="careeroptions-sect-nav"></div>
+    <div id="careeroptions" class="question-answers">
+
+      <div id="question-answer-heading">
+        <h1>Career Options</h1>
+      </div><br>
+
       <div class="faq">
         <div class="accordion accordion-flush" id="accordionFlushExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingOne">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                Computer Science Engineer
-              </button>
-            </h2>
-            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <h2>Job</h2>
-                <p>Software Engineer/ Web developer</p><br>
 
-                <h2>What you do?</h2>
-                <p>Build websites, database systems, applications etc</p><br>
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
 
-                <h2>Companies</h2>
-                <p>Google, Microsoft, TCS etc.Almost all companies need software engineers</p><br>
+                  Computer Science Engineer<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>Job</h2>
+                  <p>Software Engineer/ Web developer</p><br>
 
+                  <h2>What you do?</h2>
+                  <p>Build websites, database systems, applications etc</p><br>
+
+                  <h2>Companies</h2>
+                  <p>Google, Microsoft, TCS etc.Almost all companies need software engineers</p><br>
+
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                Data Science Engineer
-              </button>
-            </h2>
-            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <h2>Job</h2>
-                <p>AI/ML Engineer, Data Analyst</p><br>
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Data Science Engineer<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>Job</h2>
+                  <p>AI/ML Engineer, Data Analyst</p><br>
 
-                <h2>What you do?</h2>
-                <p>Build AI/ML models to predict things, make voice assistant like siri, google, google maps, predicting
-                  outcomes-stock market etc
+                  <h2>What you do?</h2>
+                  <p>Build AI/ML models to predict things, make voice assistant like siri, google, google maps,
+                    predicting
+                    outcomes-stock market etc
 
-                </p><br>
-
-                <h2>Companies</h2>
-                <p>Google, Goldman Sachs, Latent View Analytics
-                  All companies are hiring data analysts because of large vol of data
-
-                </p><br>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                Civil Engineer
-              </button>
-            </h2>
-            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <h2>Job</h2>
-                <p>Engineering Project Manager, Public Sector Engineers </p><br>
-
-                <h2>What you do?</h2>
-                <p>Act as a consultant on how things should be built, monitor work, designing products and buildings acc
-                  to specifications</p><br>
-
-                <h2>Companies</h2>
-                <p>Government- Railways, Irrigation, Infra projects etc
-                  TATA, L&T, Adani group, Essar, RIL
-                </p><br>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingFour">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                BioEngineer
-              </button>
-            </h2>
-            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <h2>Job</h2>
-                <p>Research Scientist, Biomechanics</p><br>
-
-                <h2>What you do?</h2>
-                <p>Run simulations of how a particular drug (chemical) travels in different fluids and medium and how it
-                  affects the body</p><br>
-
-                <h2>Companies</h2>
-                <p>Siemens Healthcare, Johnson and Johnson, All pharma companies etc</p><br>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingFive">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                Electrical/ Electronics Engineer
-              </button>
-            </h2>
-            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <h2>Job</h2>
-                <p>Design Engineer, Network, Power Systems Eng</p><br>
-
-                <h2>What you do?</h2>
-                <p>Work with electronic signals, power transmission systems and electrical machines</p><br>
-
-                <h2>Companies</h2>
-                <p>Siemens, BHEL, Bharat Electronics, L&T, Jio, Wipro, LG etc</p><br>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingSix">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                Mechanical Engineer
-              </button>
-            </h2>
-            <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <h2>Job</h2>
-                <p>Design Engineer/ Machine Engineer
-                </p><br>
-
-                <h2>What you do?</h2>
-                <p>Build simulation models of cars and engines, how different factors affect the flow of fluids- Oils,
-                  water etc
-
-                </p><br>
-
-                <h2>Companies</h2>
-                <p>L&T, Reliance, PSUs-HPCL, BHEL, IOCL, Automobile industry- Mercedes, Maruti etc
-
-                </p><br>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingSix">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-                Chemical Engineer
-              </button>
-            </h2>
-            <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <h2>Job</h2>
-                <p>Biotechnologist, Chemical plant engineer, manufacturing engineer,Environmental engineer, consultancy</p><br>
-
-                <h2>What you do?</h2>
-                <p>Mostly a research-based profession. Study the effect of change of parameters on a reaction inside a setting
-
-                </p><br>
-
-                <h2>Companies</h2>
-                <p>Pharma companies- CIPLA, Johnson etc
-                  TATA, Reliance etc
-                  </p><br>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingEight">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
-                Aerospace Engineer
-              </button>
-            </h2>
-            <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <h2>Job</h2>
-                <p>Aeronautical Engineer, Astronautical engineer</p><br>
-
-                <h2>What you do?</h2>
-                <p>Aerodynamics application</p><br>
-
-                <h2>Companies</h2>
-                <p>Aviation industry, ISRO etc
-                  Automobile industry also
-                  </p><br>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingNine ">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseNine " aria-expanded="false" aria-controls="flush-collapseNine ">
-                Architect
-              </button>
-            </h2>
-            <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine "
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <h2>Job</h2>
-                <p>Architectural Engineer, Structural engineer</p><br>
-
-                <h2>What you do?</h2>
-                <p>Build and design buildings, study materials and their applications</p><br>
-
-                <h2>Companies</h2>
-                <p>Gensler, Perkins and Will, HKS, and Perkins Eastman
-                  Consulting services
-                  </p><br>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingTen">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
-                MBBS
-              </button>
-            </h2>
-            <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <h2>Job</h2>
-                <p>Gensler, Perkins and Will, HKS, and Perkins Eastman
-                  Consulting services
                   </p><br>
 
-                <h2>What you do?</h2>
-                <p>Doctor as a profession
-                  Specialization degree
-                  Lecturer
+                  <h2>Companies</h2>
+                  <p>Google, Goldman Sachs, Latent View Analytics
+                    All companies are hiring data analysts because of large vol of data
+
+                  </p><br>
+                </div>
+              </div>
+            </div>
+          </div><br>
+
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Civil Engineer<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>Job</h2>
+                  <p>Engineering Project Manager, Public Sector Engineers </p><br>
+
+                  <h2>What you do?</h2>
+                  <p>Act as a consultant on how things should be built, monitor work, designing products and buildings
+                    acc
+                    to specifications</p><br>
+
+                  <h2>Companies</h2>
+                  <p>Government- Railways, Irrigation, Infra projects etc
+                    TATA, L&T, Adani group, Essar, RIL
+                  </p><br>
+                </div>
+              </div>
+            </div>
+          </div><br>
+
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  BioEngineer<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>Job</h2>
+                  <p>Research Scientist, Biomechanics</p><br>
+
+                  <h2>What you do?</h2>
+                  <p>Run simulations of how a particular drug (chemical) travels in different fluids and medium and how
+                    it
+                    affects the body</p><br>
+
+                  <h2>Companies</h2>
+                  <p>Siemens Healthcare, Johnson and Johnson, All pharma companies etc</p><br>
+                </div>
+              </div>
+            </div>
+          </div><br>
+
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                  Electrical/ Electronics Engineer<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>Job</h2>
+                  <p>Design Engineer, Network, Power Systems Eng</p><br>
+
+                  <h2>What you do?</h2>
+                  <p>Work with electronic signals, power transmission systems and electrical machines</p><br>
+
+                  <h2>Companies</h2>
+                  <p>Siemens, BHEL, Bharat Electronics, L&T, Jio, Wipro, LG etc</p><br>
+                </div>
+              </div>
+            </div>
+          </div><br>
+
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                  Mechanical Engineer<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>Job</h2>
+                  <p>Design Engineer/ Machine Engineer
                   </p><br>
 
-                <h2>Companies</h2>
-                <p>Own a clinic, Work in a hospital</p><br>
-              </div>
-            </div>
-          </div>
+                  <h2>What you do?</h2>
+                  <p>Build simulation models of cars and engines, how different factors affect the flow of fluids- Oils,
+                    water etc
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingEleven">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
-                BDS
-              </button>
-            </h2>
-            <div id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingEleven"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <h2>Job</h2>
-                <p>Teeth Doctor
-                  Higher education
                   </p><br>
 
-                <h2>What you do?</h2>
-                <p>Specialization
-                  Lecturer
+                  <h2>Companies</h2>
+                  <p>L&T, Reliance, PSUs-HPCL, BHEL, IOCL, Automobile industry- Mercedes, Maruti etc
+
+                  </p><br>
+                </div>
+              </div>
+            </div>
+          </div><br>
+
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                  Chemical Engineer<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>Job</h2>
+                  <p>Biotechnologist, Chemical plant engineer, manufacturing engineer,Environmental engineer,
+                    consultancy</p><br>
+
+                  <h2>What you do?</h2>
+                  <p>Mostly a research-based profession. Study the effect of change of parameters on a reaction inside a
+                    setting
+
                   </p><br>
 
-                <h2>Companies</h2>
-                <p>Clinic, work in a hospital, Become a professor</p><br>
+                  <h2>Companies</h2>
+                  <p>Pharma companies- CIPLA, Johnson etc
+                    TATA, Reliance etc
+                  </p><br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingTwelve">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
-                Pathology Lab Technician
-              </button>
-            </h2>
-            <div id="flush-collapseTwelve" class="accordion-collapse collapse" aria-labelledby="flush-headingTwelve"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <h2>Job</h2>
-                <p>Staff in Pathology Labs</p><br>
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingEight">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                  Aerospace Engineer<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>Job</h2>
+                  <p>Aeronautical Engineer, Astronautical engineer</p><br>
 
-                <h2>What you do?</h2>
-                <p>Collect samples and perform tests to support doctors and other medical professionals as they detect diseases and treat patients</p><br>
+                  <h2>What you do?</h2>
+                  <p>Aerodynamics application</p><br>
 
-                <h2>Companies</h2>
-                <p>Work in a hospital, Own a pathology testing centre</p><br>
+                  <h2>Companies</h2>
+                  <p>Aviation industry, ISRO etc
+                    Automobile industry also
+                  </p><br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingThirteen">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseThirteen" aria-expanded="false" aria-controls="flush-collapseThirteen">
-                PhysiotherapY
-              </button>
-            </h2>
-            <div id="flush-collapseThirteen" class="accordion-collapse collapse" aria-labelledby="flush-headingThirteen"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <h2>Job</h2>
-                <p>Doctor
-                  Higher education
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingNine ">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseNine " aria-expanded="false" aria-controls="flush-collapseNine ">
+                  Architect<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine "
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>Job</h2>
+                  <p>Architectural Engineer, Structural engineer</p><br>
+
+                  <h2>What you do?</h2>
+                  <p>Build and design buildings, study materials and their applications</p><br>
+
+                  <h2>Companies</h2>
+                  <p>Gensler, Perkins and Will, HKS, and Perkins Eastman
+                    Consulting services
+                  </p><br>
+                </div>
+              </div>
+            </div>
+          </div><br>
+
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                  MBBS<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>Job</h2>
+                  <p>Gensler, Perkins and Will, HKS, and Perkins Eastman
+                    Consulting services
                   </p><br>
 
-                <h2>What you do?</h2>
-                <p>Information to be filled</p><br>
-
-                <h2>Companies</h2>
-                <p>Private practice
-                  Part of a hospital
-                  </p><br>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingFourteen">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseFourteen" aria-expanded="false" aria-controls="flush-collapseFourteen">
-                Vetenary
-              </button>
-            </h2>
-            <div id="flush-collapseFourteen" class="accordion-collapse collapse" aria-labelledby="flush-headingFourteen"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <h2>Job</h2>
-                <p>Doctor</p><br>
-
-                <h2>What you do?</h2>
-                <p>Deal with the health welness of animals</p><br>
-
-                <h2>Companies</h2>
-                <p>Clinic, Hospital etc</p><br>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingFifteen">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseFifteen" aria-expanded="false" aria-controls="flush-collapseFifteen">
-                Nursing
-              </button>
-            </h2>
-            <div id="flush-collapseFifteen" class="accordion-collapse collapse" aria-labelledby="flush-headingFifteen"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <h2>Job</h2>
-                <p>Staff to Doctor</p><br>
-
-                <h2>What you do?</h2>
-                <p>Information to be filled</p><br>
-
-                <h2>Companies</h2>
-                <p>Staff to Doctor</p><br>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingSixteen">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseSixteen" aria-expanded="false" aria-controls="flush-collapseSixteen">
-                Ayurveda
-              </button>
-            </h2>
-            <div id="flush-collapseSixteen" class="accordion-collapse collapse" aria-labelledby="flush-headingSixteen"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <h2>Job</h2>
-                <p>Doctor</p><br>
-
-                <h2>What you do?</h2>
-                <p>Information to be filled</p><br>
-
-                <h2>Companies</h2>
-                <p>Hospitals, Clinics, Independent services</p><br>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingSeventeen">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseSeventeen" aria-expanded="false" aria-controls="flush-collapseSeventeen">
-                Homoeopathy
-              </button>
-            </h2>
-            <div id="flush-collapseSeventeen" class="accordion-collapse collapse"
-              aria-labelledby="flush-headingSeventeen" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <h2>Job</h2>
-                <p>Doctor</p><br>
-
-                <h2>What you do?</h2>
-                <p>Information to be filled</p><br>
-
-                <h2>Companies</h2>
-                <p>Hospitals, Clinics, Independent services</p><br>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingEighteen">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseEighteen" aria-expanded="false" aria-controls="flush-collapseEighteen">
-                Business Analyst
-              </button>
-            </h2>
-            <div id="flush-collapseEighteen" class="accordion-collapse collapse" aria-labelledby="flush-headingEighteen"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Identify business areas that can be improved to increase efficiency and strengthen business processes.
-                  Data Intensive
+                  <h2>What you do?</h2>
+                  <p>Doctor as a profession
+                    Specialization degree
+                    Lecturer
                   </p><br>
 
-                <h2>Companies</h2>
-                <p>Latent view, Mckinsey, Startups,Fractal </p><br>
+                  <h2>Companies</h2>
+                  <p>Own a clinic, Work in a hospital</p><br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingNineteen">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseNineteen" aria-expanded="false" aria-controls="flush-collapseNineteen">
-                Product Management
-              </button>
-            </h2>
-            <div id="flush-collapseNineteen" class="accordion-collapse collapse" aria-labelledby="flush-headingNineteen"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Map out the product’s journey- Research market, identify users and their needs, product specifications and market entry</p><br>
-
-                <h2>Companies</h2>
-                <p>Amazon, Flipkart, Paytm, Oracle, Meesho, Boston consulting, Apple, adobe
-
-                  All companies
-                  </p><br>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingTwenty">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseTwenty" aria-expanded="false" aria-controls="flush-collapseTwenty">
-                Product Analyst
-              </button>
-            </h2>
-            <div id="flush-collapseTwenty" class="accordion-collapse collapse" aria-labelledby="flush-headingTwenty"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Analyze market data to assist companies in developing marketing strategies for a product,
-                  Data-intensive
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingEleven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+                  BDS<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingEleven"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>Job</h2>
+                  <p>Teeth Doctor
+                    Higher education
                   </p><br>
 
-                <h2>Companies</h2>
-                <p>Mckinsey, Bain, Latent view, Startups
-
-                  All companies
+                  <h2>What you do?</h2>
+                  <p>Specialization
+                    Lecturer
                   </p><br>
+
+                  <h2>Companies</h2>
+                  <p>Clinic, work in a hospital, Become a professor</p><br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingTwentyOne">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseTwentyOne" aria-expanded="false" aria-controls="flush-collapseTwentyOne">
-                UI/UX designer
-              </button>
-            </h2>
-            <div id="flush-collapseTwentyOne" class="accordion-collapse collapse"
-              aria-labelledby="flush-headingTwentyOne" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>You have to design the website in software such as Figma/Adobe…etc
-                </p><br>
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwelve">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
+                  Pathology Lab Technician<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseTwelve" class="accordion-collapse collapse" aria-labelledby="flush-headingTwelve"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>Job</h2>
+                  <p>Staff in Pathology Labs</p><br>
 
-                <h2>Companies</h2>
-                <p>Almost all the startups and companies with a technical product- App or website</p><br>
+                  <h2>What you do?</h2>
+                  <p>Collect samples and perform tests to support doctors and other medical professionals as they detect
+                    diseases and treat patients</p><br>
+
+                  <h2>Companies</h2>
+                  <p>Work in a hospital, Own a pathology testing centre</p><br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingTwentyTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseTwentyTwo" aria-expanded="false" aria-controls="flush-collapseTwentyTwo">
-                Finance Analyst
-              </button>
-            </h2>
-            <div id="flush-collapseTwentyTwo" class="accordion-collapse collapse"
-              aria-labelledby="flush-headingTwentyTwo" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Responsible for a variety of research tasks to inform investment strategy and make investment decisions for their company or clients. These roles are data-intensive and require strong mathematical and analytical skills.</p><br>
-
-                <h2>Companies</h2>
-                <p>Accenture, EY, Deloitte, IBM, Honeywell
-
-                  All consulting and banking firms+ Insurance industry
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThirteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThirteen" aria-expanded="false" aria-controls="flush-collapseThirteen">
+                  PhysiotherapY<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseThirteen" class="accordion-collapse collapse"
+                aria-labelledby="flush-headingThirteen" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>Job</h2>
+                  <p>Doctor
+                    Higher education
                   </p><br>
-              </div>
-            </div>
-          </div>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingTwentyThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseTwentyThree" aria-expanded="false"
-                aria-controls="flush-collapseTwentyThree">
-                Investment Banking
-              </button>
-            </h2>
-            <div id="flush-collapseTwentyThree" class="accordion-collapse collapse"
-              aria-labelledby="flush-headingTwentyThree" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Combine financial services industry expertise, analytical prowess to support institutional clients in activities like capital raising and mergers and acquisitions.</p><br>
+                  <h2>What you do?</h2>
+                  <p>Information to be filled</p><br>
 
-                <h2>Companies</h2>
-                <p>Morgan Stanley, Goldman Sachs, JP Morgan, HSBC, Accenture, Deloitte
-
-                  All consulting, private equity investment firms
+                  <h2>Companies</h2>
+                  <p>Private practice
+                    Part of a hospital
                   </p><br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingTwentyFour">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseTwentyFour" aria-expanded="false"
-                aria-controls="flush-collapseTwentyFour">
-                Private Equity analysts
-              </button>
-            </h2>
-            <div id="flush-collapseTwentyFour" class="accordion-collapse collapse"
-              aria-labelledby="flush-headingTwentyFour" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Work on the assumptions and prepare financial scenarios to determine the optimal mix of debt and equity to maximize the return on investment.</p><br>
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFourteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFourteen" aria-expanded="false" aria-controls="flush-collapseFourteen">
+                  Vetenary<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseFourteen" class="accordion-collapse collapse"
+                aria-labelledby="flush-headingFourteen" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>Job</h2>
+                  <p>Doctor</p><br>
 
-                <h2>Companies</h2>
-                <p>ICICI, Kotak group, JP Morgan, Goldman sachs, Credit Suisse
+                  <h2>What you do?</h2>
+                  <p>Deal with the health welness of animals</p><br>
 
-                  All consulting, private equity investment firms and banks
+                  <h2>Companies</h2>
+                  <p>Clinic, Hospital etc</p><br>
+                </div>
+              </div>
+            </div>
+          </div><br>
+
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFifteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFifteen" aria-expanded="false" aria-controls="flush-collapseFifteen">
+                  Nursing<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseFifteen" class="accordion-collapse collapse" aria-labelledby="flush-headingFifteen"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>Job</h2>
+                  <p>Staff to Doctor</p><br>
+
+                  <h2>What you do?</h2>
+                  <p>Information to be filled</p><br>
+
+                  <h2>Companies</h2>
+                  <p>Staff to Doctor</p><br>
+                </div>
+              </div>
+            </div>
+          </div><br>
+
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingSixteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSixteen" aria-expanded="false" aria-controls="flush-collapseSixteen">
+                  Ayurveda<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseSixteen" class="accordion-collapse collapse" aria-labelledby="flush-headingSixteen"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>Job</h2>
+                  <p>Doctor</p><br>
+
+                  <h2>What you do?</h2>
+                  <p>Information to be filled</p><br>
+
+                  <h2>Companies</h2>
+                  <p>Hospitals, Clinics, Independent services</p><br>
+                </div>
+              </div>
+            </div>
+          </div><br>
+
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingSeventeen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSeventeen" aria-expanded="false"
+                  aria-controls="flush-collapseSeventeen">
+                  Homoeopathy<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseSeventeen" class="accordion-collapse collapse"
+                aria-labelledby="flush-headingSeventeen" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>Job</h2>
+                  <p>Doctor</p><br>
+
+                  <h2>What you do?</h2>
+                  <p>Information to be filled</p><br>
+
+                  <h2>Companies</h2>
+                  <p>Hospitals, Clinics, Independent services</p><br>
+                </div>
+              </div>
+            </div>
+          </div><br>
+
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingEighteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseEighteen" aria-expanded="false" aria-controls="flush-collapseEighteen">
+                  Business Analyst<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseEighteen" class="accordion-collapse collapse"
+                aria-labelledby="flush-headingEighteen" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Identify business areas that can be improved to increase efficiency and strengthen business
+                    processes.
+                    Data Intensive
                   </p><br>
+
+                  <h2>Companies</h2>
+                  <p>Latent view, Mckinsey, Startups,Fractal </p><br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingTwentyFive">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseTwentyFive" aria-expanded="false"
-                aria-controls="flush-collapseTwentyFive">
-                Management Consulting
-              </button>
-            </h2>
-            <div id="flush-collapseTwentyFive" class="accordion-collapse collapse"
-              aria-labelledby="flush-headingTwentyFive" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Management consultants help organizations solve problems, improve business performance, create value and maximize growth</p><br>
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingNineteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseNineteen" aria-expanded="false" aria-controls="flush-collapseNineteen">
+                  Product Management<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseNineteen" class="accordion-collapse collapse"
+                aria-labelledby="flush-headingNineteen" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Map out the product’s journey- Research market, identify users and their needs, product
+                    specifications and market entry</p><br>
 
-                <h2>Companies</h2>
-                <p>Mckinsey, Boston consulting, Bain and Company,pwc, KPMG, Oliver Wyman, Accenture, Deloitte etc</p><br>
+                  <h2>Companies</h2>
+                  <p>Amazon, Flipkart, Paytm, Oracle, Meesho, Boston consulting, Apple, adobe
+
+                    All companies
+                  </p><br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
+
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwenty">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwenty" aria-expanded="false" aria-controls="flush-collapseTwenty">
+                  Product Analyst<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseTwenty" class="accordion-collapse collapse" aria-labelledby="flush-headingTwenty"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Analyze market data to assist companies in developing marketing strategies for a product,
+                    Data-intensive
+                  </p><br>
+
+                  <h2>Companies</h2>
+                  <p>Mckinsey, Bain, Latent view, Startups
+
+                    All companies
+                  </p><br>
+                </div>
+              </div>
+            </div>
+          </div><br>
+
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwentyOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwentyOne" aria-expanded="false"
+                  aria-controls="flush-collapseTwentyOne">
+                  UI/UX designer<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseTwentyOne" class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwentyOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>You have to design the website in software such as Figma/Adobe…etc
+                  </p><br>
+
+                  <h2>Companies</h2>
+                  <p>Almost all the startups and companies with a technical product- App or website</p><br>
+                </div>
+              </div>
+            </div>
+          </div><br>
+
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwentyTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwentyTwo" aria-expanded="false"
+                  aria-controls="flush-collapseTwentyTwo">
+                  Finance Analyst<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseTwentyTwo" class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwentyTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Responsible for a variety of research tasks to inform investment strategy and make investment
+                    decisions for their company or clients. These roles are data-intensive and require strong
+                    mathematical and analytical skills.</p><br>
+
+                  <h2>Companies</h2>
+                  <p>Accenture, EY, Deloitte, IBM, Honeywell
+
+                    All consulting and banking firms+ Insurance industry
+                  </p><br>
+                </div>
+              </div>
+            </div>
+          </div><br>
+
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwentyThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwentyThree" aria-expanded="false"
+                  aria-controls="flush-collapseTwentyThree">
+                  Investment Banking<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseTwentyThree" class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwentyThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Combine financial services industry expertise, analytical prowess to support institutional clients
+                    in activities like capital raising and mergers and acquisitions.</p><br>
+
+                  <h2>Companies</h2>
+                  <p>Morgan Stanley, Goldman Sachs, JP Morgan, HSBC, Accenture, Deloitte
+
+                    All consulting, private equity investment firms
+                  </p><br>
+                </div>
+              </div>
+            </div>
+          </div><br>
+
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwentyFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwentyFour" aria-expanded="false"
+                  aria-controls="flush-collapseTwentyFour">
+                  Private Equity analysts<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseTwentyFour" class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwentyFour" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Work on the assumptions and prepare financial scenarios to determine the optimal mix of debt and
+                    equity to maximize the return on investment.</p><br>
+
+                  <h2>Companies</h2>
+                  <p>ICICI, Kotak group, JP Morgan, Goldman sachs, Credit Suisse
+
+                    All consulting, private equity investment firms and banks
+                  </p><br>
+                </div>
+              </div>
+            </div>
+          </div><br>
+
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwentyFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwentyFive" aria-expanded="false"
+                  aria-controls="flush-collapseTwentyFive">
+                  Management Consulting<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseTwentyFive" class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwentyFive" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Management consultants help organizations solve problems, improve business performance, create
+                    value and maximize growth</p><br>
+
+                  <h2>Companies</h2>
+                  <p>Mckinsey, Boston consulting, Bain and Company,pwc, KPMG, Oliver Wyman, Accenture, Deloitte etc</p>
+                  <br>
+                </div>
+              </div>
+            </div>
+          </div><br>
 
 
 
@@ -1081,498 +1254,623 @@
 
 
         <div class="accordion accordion-flush" id="accordionFlushExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingTwenty6">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseTwenty6" aria-expanded="false" aria-controls="flush-collapseTwenty6">
-                Strategy Consultant
-              </button>
-            </h2>
-            <div id="flush-collapseTwenty6" class="accordion-collapse collapse" aria-labelledby="flush-headingTwenty6"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Management consultants help organizations solve problems, improve business performance, create value and maximize growth</p><br>
 
-                <h2>Companies</h2>
-                <p>Mckinsey, Boston consulting, Bain and Company,pwc, KPMG, Oliver Wyman, Accenture, Deloitte etc</p><br>
+
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwenty6">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwenty6" aria-expanded="false" aria-controls="flush-collapseTwenty6">
+                  Strategy Consultant<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseTwenty6" class="accordion-collapse collapse" aria-labelledby="flush-headingTwenty6"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Management consultants help organizations solve problems, improve business performance, create
+                    value and maximize growth</p><br>
+
+                  <h2>Companies</h2>
+                  <p>Mckinsey, Boston consulting, Bain and Company,pwc, KPMG, Oliver Wyman, Accenture, Deloitte etc</p>
+                  <br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingTwenty7">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseTwenty7" aria-expanded="false" aria-controls="flush-collapseTwenty7">
-                Operations Consultant
-              </button>
-            </h2>
-            <div id="flush-collapseTwenty7" class="accordion-collapse collapse" aria-labelledby="flush-headingTwenty7"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Management consultants help organizations solve problems, improve business performance, create value and maximize growth</p><br>
 
-                <h2>Companies</h2>
-                <p>Mckinsey, Boston consulting, Bain and Company,pwc, KPMG, Oliver Wyman, Accenture, Deloitte etc</p><br>
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwenty7">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwenty7" aria-expanded="false" aria-controls="flush-collapseTwenty7">
+                  Operations Consultant<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseTwenty7" class="accordion-collapse collapse" aria-labelledby="flush-headingTwenty7"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Management consultants help organizations solve problems, improve business performance, create
+                    value and maximize growth</p><br>
+
+                  <h2>Companies</h2>
+                  <p>Mckinsey, Boston consulting, Bain and Company,pwc, KPMG, Oliver Wyman, Accenture, Deloitte etc</p>
+                  <br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingTwenty8">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseTwenty8" aria-expanded="false" aria-controls="flush-collapseTwenty8">
-                Financial Advisory Consultant
-              </button>
-            </h2>
-            <div id="flush-collapseTwenty8" class="accordion-collapse collapse" aria-labelledby="flush-headingTwenty8"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Management consultants help organizations solve problems, improve business performance, create value and maximize growth</p><br>
 
-                <h2>Companies</h2>
-                <p>Mckinsey, Boston consulting, Bain and Company,pwc, KPMG, Oliver Wyman, Accenture, Deloitte etc</p><br>
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwenty8">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwenty8" aria-expanded="false" aria-controls="flush-collapseTwenty8">
+                  Financial Advisory Consultant<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseTwenty8" class="accordion-collapse collapse" aria-labelledby="flush-headingTwenty8"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Management consultants help organizations solve problems, improve business performance, create
+                    value and maximize growth</p><br>
+
+                  <h2>Companies</h2>
+                  <p>Mckinsey, Boston consulting, Bain and Company,pwc, KPMG, Oliver Wyman, Accenture, Deloitte etc</p>
+                  <br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingTwenty9">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseTwenty9" aria-expanded="false" aria-controls="flush-collapseTwenty9">
-                Human Resource Consultant
-              </button>
-            </h2>
-            <div id="flush-collapseTwenty9" class="accordion-collapse collapse" aria-labelledby="flush-headingTwenty9"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Management consultants help organizations solve problems, improve business performance, create value and maximize growth</p><br>
 
-                <h2>Companies</h2>
-                <p>Mckinsey, Boston consulting, Bain and Company,pwc, KPMG, Oliver Wyman, Accenture, Deloitte etc</p><br>
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwenty9">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwenty9" aria-expanded="false" aria-controls="flush-collapseTwenty9">
+                  Human Resource Consultant<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseTwenty9" class="accordion-collapse collapse" aria-labelledby="flush-headingTwenty9"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Management consultants help organizations solve problems, improve business performance, create
+                    value and maximize growth</p><br>
+
+                  <h2>Companies</h2>
+                  <p>Mckinsey, Boston consulting, Bain and Company,pwc, KPMG, Oliver Wyman, Accenture, Deloitte etc</p>
+                  <br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-heading30">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapse30" aria-expanded="false" aria-controls="flush-collapse30">
-                Marketing Management
-              </button>
-            </h2>
-            <div id="flush-collapse30" class="accordion-collapse collapse" aria-labelledby="flush-heading30"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Organize and manage marketing campaigns to raise awareness of and generate demand for products and services</p><br>
 
-                <h2>Companies</h2>
-                <p>Google, Accenture, TCS, BYJUs
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading30">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse30" aria-expanded="false" aria-controls="flush-collapse30">
+                  Marketing Management<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapse30" class="accordion-collapse collapse" aria-labelledby="flush-heading30"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Organize and manage marketing campaigns to raise awareness of and generate demand for products and
+                    services</p><br>
 
-                  All companies need marketing managers
+                  <h2>Companies</h2>
+                  <p>Google, Accenture, TCS, BYJUs
+
+                    All companies need marketing managers
                   </p><br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-heading31">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapse31" aria-expanded="false" aria-controls="flush-collapse31">
-                HR
-              </button>
-            </h2>
-            <div id="flush-collapse31" class="accordion-collapse collapse" aria-labelledby="flush-heading31"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Human resource management functions, such as finding, hiring, training, and supporting new employees</p><br>
 
-                <h2>Companies</h2>
-                <p>All companies need HRs</p><br>
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading31">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse31" aria-expanded="false" aria-controls="flush-collapse31">
+                  HR<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapse31" class="accordion-collapse collapse" aria-labelledby="flush-heading31"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Human resource management functions, such as finding, hiring, training, and supporting new
+                    employees</p><br>
+
+                  <h2>Companies</h2>
+                  <p>All companies need HRs</p><br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-heading32">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapse32" aria-expanded="false" aria-controls="flush-collapse32">
-                Sales Manager
-              </button>
-            </h2>
-            <div id="flush-collapse32" class="accordion-collapse collapse" aria-labelledby="flush-heading32"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Oversee a company's entire sales process; responsible for employee onboarding, while they develop and implement a sales strategy that caters to the strengths of the sales team.</p><br>
 
-                <h2>Companies</h2>
-                <p>All companies need sales manager</p><br>
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading32">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse32" aria-expanded="false" aria-controls="flush-collapse32">
+                  Sales Manager<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapse32" class="accordion-collapse collapse" aria-labelledby="flush-heading32"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Oversee a company's entire sales process; responsible for employee onboarding, while they develop
+                    and implement a sales strategy that caters to the strengths of the sales team.</p><br>
+
+                  <h2>Companies</h2>
+                  <p>All companies need sales manager</p><br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-heading33">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapse33" aria-expanded="false" aria-controls="flush-collapse33">
-                Chartered Accountant
-              </button>
-            </h2>
-            <div id="flush-collapse33" class="accordion-collapse collapse" aria-labelledby="flush-heading33"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Work in all fields of business and finance, including auditing, taxation, financial and general management; engaged in public practice work, Private and government bodies</p><br>
 
-                <h2>Companies</h2>
-                <p>Private practice
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading33">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse33" aria-expanded="false" aria-controls="flush-collapse33">
+                  Chartered Accountant<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapse33" class="accordion-collapse collapse" aria-labelledby="flush-heading33"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Work in all fields of business and finance, including auditing, taxation, financial and general
+                    management; engaged in public practice work, Private and government bodies</p><br>
 
-                  Deloitte, KPMG,pwc, GT international etc
-                  
-                  Almost all investment, banking and consulting companies have CAs apart from others outsourcing them to another firm
+                  <h2>Companies</h2>
+                  <p>Private practice
+
+                    Deloitte, KPMG,pwc, GT international etc
+
+                    Almost all investment, banking and consulting companies have CAs apart from others outsourcing them
+                    to another firm
                   </p><br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-heading34">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapse34" aria-expanded="false" aria-controls="flush-collapse34">
-                Entrepreneur
-              </button>
-            </h2>
-            <div id="flush-collapse34" class="accordion-collapse collapse" aria-labelledby="flush-heading34"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Starting a new scalable  business</p><br>
 
-                <h2>Companies</h2>
-                <p>OWN A COMPANY</p><br>
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading34">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse34" aria-expanded="false" aria-controls="flush-collapse34">
+                  Entrepreneur<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapse34" class="accordion-collapse collapse" aria-labelledby="flush-heading34"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Starting a new scalable business</p><br>
+
+                  <h2>Companies</h2>
+                  <p>OWN A COMPANY</p><br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-heading35">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapse35" aria-expanded="false" aria-controls="flush-collapse35">
-                Fashion Designing
-              </button>
-            </h2>
-            <div id="flush-collapse35" class="accordion-collapse collapse" aria-labelledby="flush-heading35"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Sketch designs of clothing, footwear, and accessories</p><br>
 
-                <h2>Companies</h2>
-                <p>Freelancers
-                  Myntra, Amazon, All apparel, footwear and accessory companies- Zara, Nike
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading35">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse35" aria-expanded="false" aria-controls="flush-collapse35">
+                  Fashion Designing<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapse35" class="accordion-collapse collapse" aria-labelledby="flush-heading35"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Sketch designs of clothing, footwear, and accessories</p><br>
+
+                  <h2>Companies</h2>
+                  <p>Freelancers
+                    Myntra, Amazon, All apparel, footwear and accessory companies- Zara, Nike
                   </p><br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-heading36">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapse36" aria-expanded="false" aria-controls="flush-collapse36">
-                Event management
-              </button>
-            </h2>
-            <div id="flush-collapse36" class="accordion-collapse collapse" aria-labelledby="flush-heading36"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Plan and organise promotional, business and social event</p><br>
 
-                <h2>Companies</h2>
-                <p>Wizcraft, George P Johnson, Percept, Pegasus etc
-                  Freelancer
-                  Consulting services
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading36">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse36" aria-expanded="false" aria-controls="flush-collapse36">
+                  Event management<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapse36" class="accordion-collapse collapse" aria-labelledby="flush-heading36"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Plan and organise promotional, business and social event</p><br>
+
+                  <h2>Companies</h2>
+                  <p>Wizcraft, George P Johnson, Percept, Pegasus etc
+                    Freelancer
+                    Consulting services
                   </p><br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-heading37">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapse37" aria-expanded="false" aria-controls="flush-collapse37">
-                Journalist
-              </button>
-            </h2>
-            <div id="flush-collapse37" class="accordion-collapse collapse" aria-labelledby="flush-heading37"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Practice of writing, for the magazine, print media, news website, blog, newspaper, or create/prepare news for the telecast</p><br>
 
-                <h2>Companies</h2>
-                <p>Print and media companies,
-                  Newzera, aftershoot, Times network etc
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading37">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse37" aria-expanded="false" aria-controls="flush-collapse37">
+                  Journalist<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapse37" class="accordion-collapse collapse" aria-labelledby="flush-heading37"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Practice of writing, for the magazine, print media, news website, blog, newspaper, or
+                    create/prepare news for the telecast</p><br>
+
+                  <h2>Companies</h2>
+                  <p>Print and media companies,
+                    Newzera, aftershoot, Times network etc
                   </p><br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-heading38">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapse38" aria-expanded="false" aria-controls="flush-collapse38">
-                Hotel Managers
-              </button>
-            </h2>
-            <div id="flush-collapse38" class="accordion-collapse collapse" aria-labelledby="flush-heading38"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Oversees all of a hotel's daily operations, from staffing to coordinating fresh-cut flowers for the lobby, negotiation with vendors etc</p><br>
 
-                <h2>Companies</h2>
-                <p>IHG group, TAJ, Crown etc
-                  Consulting services
-                  All hospitality sector- Hotels and restaurants and others
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading38">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse38" aria-expanded="false" aria-controls="flush-collapse38">
+                  Hotel Managers<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapse38" class="accordion-collapse collapse" aria-labelledby="flush-heading38"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Oversees all of a hotel's daily operations, from staffing to coordinating fresh-cut flowers for the
+                    lobby, negotiation with vendors etc</p><br>
+
+                  <h2>Companies</h2>
+                  <p>IHG group, TAJ, Crown etc
+                    Consulting services
+                    All hospitality sector- Hotels and restaurants and others
                   </p><br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-heading39">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapse39" aria-expanded="false" aria-controls="flush-collapse39">
-                Animator
-              </button>
-            </h2>
-            <div id="flush-collapse39" class="accordion-collapse collapse" aria-labelledby="flush-heading39"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Use sequential images of drawings, puppets and models to produce films for commercials, computer games, music videos and websites</p><br>
 
-                <h2>Companies</h2>
-                <p>Toonz, Reliance media etc
-                  Freelance
-                  
-                  Most international media players
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading39">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse39" aria-expanded="false" aria-controls="flush-collapse39">
+                  Animator<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapse39" class="accordion-collapse collapse" aria-labelledby="flush-heading39"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Use sequential images of drawings, puppets and models to produce films for commercials, computer
+                    games, music videos and websites</p><br>
+
+                  <h2>Companies</h2>
+                  <p>Toonz, Reliance media etc
+                    Freelance
+
+                    Most international media players
                   </p><br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-heading40">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapse40" aria-expanded="false" aria-controls="flush-collapse40">
-                Interior Designers
-              </button>
-            </h2>
-            <div id="flush-collapse40" class="accordion-collapse collapse" aria-labelledby="flush-heading40"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Make indoor spaces functional, safe, and beautiful by determining space requirements and selecting essential and decorative items, such as colors, lighting, and materials</p><br>
 
-                <h2>Companies</h2>
-                <p>Private practice
-                  Consulting services
-                  
-                  Carafina, De panache, Morph design etc
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading40">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse40" aria-expanded="false" aria-controls="flush-collapse40">
+                  Interior Designers<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapse40" class="accordion-collapse collapse" aria-labelledby="flush-heading40"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Make indoor spaces functional, safe, and beautiful by determining space requirements and selecting
+                    essential and decorative items, such as colors, lighting, and materials</p><br>
+
+                  <h2>Companies</h2>
+                  <p>Private practice
+                    Consulting services
+
+                    Carafina, De panache, Morph design etc
                   </p><br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-heading41">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapse41" aria-expanded="false" aria-controls="flush-collapse41">
-                Graphic Designers
-              </button>
-            </h2>
-            <div id="flush-collapse41" class="accordion-collapse collapse" aria-labelledby="flush-heading41"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Create visual concepts, using computer software or by hand, to communicate ideas that inspire, inform, and captivate consumers.</p><br>
 
-                <h2>Companies</h2>
-                <p>All companies need graphic designers
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading41">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse41" aria-expanded="false" aria-controls="flush-collapse41">
+                  Graphic Designers<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapse41" class="accordion-collapse collapse" aria-labelledby="flush-heading41"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Create visual concepts, using computer software or by hand, to communicate ideas that inspire,
+                    inform, and captivate consumers.</p><br>
 
-                  Marketing firms
-                  Verve logic, multia, Landorr, Google
+                  <h2>Companies</h2>
+                  <p>All companies need graphic designers
+
+                    Marketing firms
+                    Verve logic, multia, Landorr, Google
                   </p><br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-heading42">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapse42" aria-expanded="false" aria-controls="flush-collapse42">
-                Copywriters
-              </button>
-            </h2>
-            <div id="flush-collapse42" class="accordion-collapse collapse" aria-labelledby="flush-heading42"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Research, plan and create written content for the purpose of advertising goods and services on behalf of a client</p><br>
 
-                <h2>Companies</h2>
-                <p>All companies need copywriters
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading42">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse42" aria-expanded="false" aria-controls="flush-collapse42">
+                  Copywriters<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapse42" class="accordion-collapse collapse" aria-labelledby="flush-heading42"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Research, plan and create written content for the purpose of advertising goods and services on
+                    behalf of a client</p><br>
 
-                  ABC Copywriting, BKA Content, Fluid writers
+                  <h2>Companies</h2>
+                  <p>All companies need copywriters
+
+                    ABC Copywriting, BKA Content, Fluid writers
                   </p><br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-heading43">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapse43" aria-expanded="false" aria-controls="flush-collapse43">
-                Lawyer
-              </button>
-            </h2>
-            <div id="flush-collapse43" class="accordion-collapse collapse" aria-labelledby="flush-heading43"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Counsels his or her clients on legal rights and obligations</p><br>
 
-                <h2>Companies</h2>
-                <p>Own practice
-                  Consulting services
-                  Government litigator etc
-                  Baker Mckenzie, Sidley, White and case, Latham and Watkins, Allen and Overy
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading43">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse43" aria-expanded="false" aria-controls="flush-collapse43">
+                  Lawyer<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapse43" class="accordion-collapse collapse" aria-labelledby="flush-heading43"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Counsels his or her clients on legal rights and obligations</p><br>
+
+                  <h2>Companies</h2>
+                  <p>Own practice
+                    Consulting services
+                    Government litigator etc
+                    Baker Mckenzie, Sidley, White and case, Latham and Watkins, Allen and Overy
                   </p><br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-heading44">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapse44" aria-expanded="false" aria-controls="flush-collapse44">
-                Professor in Languages
-              </button>
-            </h2>
-            <div id="flush-collapse44" class="accordion-collapse collapse" aria-labelledby="flush-heading44"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Teach the languages, their culture and heritage</p><br>
 
-                <h2>Companies</h2>
-                <p>Any university</p><br>
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading44">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse44" aria-expanded="false" aria-controls="flush-collapse44">
+                  Professor in Languages<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapse44" class="accordion-collapse collapse" aria-labelledby="flush-heading44"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Teach the languages, their culture and heritage</p><br>
+
+                  <h2>Companies</h2>
+                  <p>Any university</p><br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-heading45">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapse45" aria-expanded="false" aria-controls="flush-collapse45">
-                Political Consultant
-              </button>
-            </h2>
-            <div id="flush-collapse45" class="accordion-collapse collapse" aria-labelledby="flush-heading45"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Works with politicians to help them run successful election campaigns.</p><br>
 
-                <h2>Companies</h2>
-                <p>Global strategy group, GMMB, Precision Strategies
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading45">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse45" aria-expanded="false" aria-controls="flush-collapse45">
+                  Political Consultant<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapse45" class="accordion-collapse collapse" aria-labelledby="flush-heading45"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Works with politicians to help them run successful election campaigns.</p><br>
 
-                  Part of a political party thinktank
+                  <h2>Companies</h2>
+                  <p>Global strategy group, GMMB, Precision Strategies
+
+                    Part of a political party thinktank
                   </p><br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-heading46">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapse46" aria-expanded="false" aria-controls="flush-collapse46">
-                Defense Services
-              </button>
-            </h2>
-            <div id="flush-collapse46" class="accordion-collapse collapse" aria-labelledby="flush-heading46"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Inter-Services Organizations, Defence Accounts Department,Canteen Stores Department (CSD), Coast Guard, National Cadet Corps, Border Roads Organisation, Institute for Defence Studies and Analysis, National Defence College</p><br>
 
-                <h2>Companies</h2>
-                <p>Work for Government</p><br>
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading46">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse46" aria-expanded="false" aria-controls="flush-collapse46">
+                  Defense Services<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapse46" class="accordion-collapse collapse" aria-labelledby="flush-heading46"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Inter-Services Organizations, Defence Accounts Department,Canteen Stores Department (CSD), Coast
+                    Guard, National Cadet Corps, Border Roads Organisation, Institute for Defence Studies and Analysis,
+                    National Defence College</p><br>
+
+                  <h2>Companies</h2>
+                  <p>Work for Government</p><br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-heading47">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapse47" aria-expanded="false" aria-controls="flush-collapse47">
-                SDM, DM, DC, Secretary
-              </button>
-            </h2>
-            <div id="flush-collapse47" class="accordion-collapse collapse" aria-labelledby="flush-heading47"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Serve the Central and State governments in implementing and administering the policies formulated by the central and state governments.
-                </p><br>
 
-                <h2>Companies</h2>
-                <p> Even if you don’t qualify, you will have lot of offers from many companies for managerial posts, to teach for IAS preparations such as Drishti IAS…etc</p><br>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-heading48">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapse48" aria-expanded="false" aria-controls="flush-collapse48">
-                Research Scholar
-              </button>
-            </h2>
-            <div id="flush-collapse48" class="accordion-collapse collapse" aria-labelledby="flush-heading48"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Research in your particular area of interest to advance the field</p><br>
-
-                <h2>Companies</h2>
-                <p>Universities- Harvard, Cambridge, MIT etc</p><br>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-heading49">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapse49" aria-expanded="false" aria-controls="flush-collapse49">
-                Commercial Pilot
-              </button>
-            </h2>
-            <div id="flush-collapse49" class="accordion-collapse collapse" aria-labelledby="flush-heading49"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Involved in unscheduled flight activities, such as aerial application, charter flights, and aerial tours</p><br>
-
-                <h2>Companies</h2>
-                <p>For individuals
-                  Aviation services- Chartered plane etc
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading47">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse47" aria-expanded="false" aria-controls="flush-collapse47">
+                  SDM, DM, DC, Secretary<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapse47" class="accordion-collapse collapse" aria-labelledby="flush-heading47"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Serve the Central and State governments in implementing and administering the policies formulated
+                    by the central and state governments.
                   </p><br>
+
+                  <h2>Companies</h2>
+                  <p> Even if you don’t qualify, you will have lot of offers from many companies for managerial posts,
+                    to teach for IAS preparations such as Drishti IAS…etc</p><br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-heading50">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapse50" aria-expanded="false" aria-controls="flush-collapse50">
-                Airline Pilot
-              </button>
-            </h2>
-            <div id="flush-collapse50" class="accordion-collapse collapse" aria-labelledby="flush-heading50"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body"><h2>What you do?</h2>
-                <p>Transport passengers and cargo on a fixed schedule</p><br>
 
-                <h2>Companies</h2>
-                <p>Airlines- TATA group, Spicejet, Indigo etc</p><br>
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading48">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse48" aria-expanded="false" aria-controls="flush-collapse48">
+                  Research Scholar<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapse48" class="accordion-collapse collapse" aria-labelledby="flush-heading48"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Research in your particular area of interest to advance the field</p><br>
+
+                  <h2>Companies</h2>
+                  <p>Universities- Harvard, Cambridge, MIT etc</p><br>
+                </div>
               </div>
             </div>
-          </div>
+          </div><br>
+
+
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading49">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse49" aria-expanded="false" aria-controls="flush-collapse49">
+                  Commercial Pilot<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapse49" class="accordion-collapse collapse" aria-labelledby="flush-heading49"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Involved in unscheduled flight activities, such as aerial application, charter flights, and aerial
+                    tours</p><br>
+
+                  <h2>Companies</h2>
+                  <p>For individuals
+                    Aviation services- Chartered plane etc
+                  </p><br>
+                </div>
+              </div>
+            </div>
+          </div><br>
+
+
+          <div class="border-box">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading50">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse50" aria-expanded="false" aria-controls="flush-collapse50">
+                  Airline Pilot<i class="fa-solid fa-plus"></i>
+                </button>
+              </h2>
+              <div id="flush-collapse50" class="accordion-collapse collapse" aria-labelledby="flush-heading50"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h2>What you do?</h2>
+                  <p>Transport passengers and cargo on a fixed schedule</p><br>
+
+                  <h2>Companies</h2>
+                  <p>Airlines- TATA group, Spicejet, Indigo etc</p><br>
+                </div>
+              </div>
+            </div>
+          </div><br>
 
 
 
@@ -1582,6 +1880,8 @@
 
       </div>
     </div>
+
+    <div id="contact-sect-nav"></div>
     <div id="contact" class="contact-us-div">
       <div class="contact-us">
         <h1>Contact Us</h1>
@@ -1593,14 +1893,14 @@
       <div class="form-page">
         <h1>How can we help you ?</h1>
         <p>PLease let us know by filling the form</p>
-        <form>
+       
           <div class="form-row">
             <div class="form-group col-md-6">
               <label for="inputName">Name</label>
               <input type="text" class="form-control" id="inputName" placeholder="Enter full name">
             </div>
             <div class="form-group col-md-6">
-              <label for="inputPassword4">Phone</label>
+              <label for="number">Phone</label>
               <input type="number" class="form-control" id="number" placeholder="Enter number">
             </div>
           </div>
@@ -1614,38 +1914,48 @@
           </div>
 
           <div class="text-center">
-            <button type="submit" class="btn btn-primary">Message Us</button>
+            <button type="submit" class="btn btn-primary" onclick="sendMail()">Message Us</button>
           </div>
 
-        </form>
+        
       </div>
       <div class="email-details">
         <h2>Email us at</h2>
         <p>contact@eduvizo.com</p><br>
         <div class="connect-brands">
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-linkedin"></i>
-          <i class="fa-brands fa-square-instagram"></i>
+          <a href="https://www.facebook.com/profile.php?id=100085488651515&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/company/eduvizo/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/invites/contact/?i=d17zeej37551&utm_content=o23som4"><i class="fa-brands fa-square-instagram"></i></a>
         </div>
 
       </div>
     </div>
 
 
+
     <footer>
       <div class="footer">
-        <div class="main-logo"><img src="assets/img/logo.png" class="img-fluid" alt="Logo"></div>
+        <div class="main-logo"><img src="assets\img\vertical logo.png" class="img-fluid" alt="Logo"></div>
         <div class="tutor-service-about">
-          <p>Tutors</p>
-          <p>Our Services</p>
-          <p>About Us</p>
+          <a href="index.html"><p>Home</p></a>
+          <a href="#about-sect-nav"><p>About Us</p></a>
+          <a href="#careeroptions-sect-nav"><p>Career Options</p></a>
+         
         </div>
         <div class="contact-use">
-          <p>Contact Us</p>
-          <p>How to Use</p>
+          <a href="#testimonials-sect-nav"><p>Testimonials</p></a>
+          <a href="#contact-sect-nav"><p>Contact Us</p></a>
         </div>
       </div>
+
     </footer>
+
+
+
+
+
+
+
     <!-- /Main Wrapper -->
     <!-- jQuery -->
     <script src="assets/js/jquery.min.js"></script>
@@ -1661,6 +1971,17 @@
 
     <!-- Custom JS -->
     <script src="assets/js/script.js"></script>
+
+     
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("q6Wl0z5kfBzPOIPNd");
+        })();
+    </script>
+     <script src="assets\js\newMail.js"></script>
+
 </body>
 
 </html>
