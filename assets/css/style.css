@@ -1962,7 +1962,7 @@ button.bg-danger:hover {
 	-ms-flex-align: center;
 	align-items: center;
 	background-color: #fff;
-    height: 60px;
+    height: 85px;
     padding:  0 20px;
 	justify-content: space-between;
 	-webkit-justify-content: space-between;
@@ -1970,6 +1970,12 @@ button.bg-danger:hover {
     border-bottom: 1px solid #f0f0f0;
 	display: none;
 }
+
+.main-menu-wrapper .menu-header  img {
+	width: 6rem;
+	height: 4rem;
+}
+
 .menu-logo img {
     height: 40px;
 }
@@ -6486,6 +6492,7 @@ view-btn:hover, .view-btn:focus {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
+		
 	}
 	.navbar-header {
 		-webkit-box-align: center;
@@ -6595,7 +6602,7 @@ view-btn:hover, .view-btn:focus {
 		height: calc(100vh - 140px);
 	}
 	.sidebar-overlay.opened {
-		display: block;
+		/* display: block; */
 	}
 	.about-content {
 		margin-bottom: 30px;
@@ -7024,7 +7031,7 @@ view-btn:hover, .view-btn:focus {
 		margin-right: 0;
 	}
 	.navbar-brand.logo img {
-		height: 40px;
+		height: 65px;
 	}
 	.search-box form {
 		display: block;

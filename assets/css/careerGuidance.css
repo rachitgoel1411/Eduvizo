@@ -33,3 +33,11 @@ main {
     border-radius: 10px;
     
   }
+
+  .cards .card .card-body {
+    padding: 3rem;
+  }
+
+  .img-fluid {
+    width: 5.5rem;
+  }

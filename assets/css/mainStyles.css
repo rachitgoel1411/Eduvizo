@@ -100,12 +100,24 @@ body {
 }
 
 .question-para {
-  color: #007FFF;
+  color: #0091DC;
 
 }
 
 .question .para-1 {
   font-size: 1.25rem;
+}
+
+#question-answer-heading{
+  background-color: #0091DC;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+#question-answer-heading h1{
+  color: white;
+  margin: auto;
 }
 
 .outer-div-progress {
@@ -335,17 +347,22 @@ body {
   font-weight: 400;
 }
 
+ 
+
+
+
 .student-rating .card-deck .card {
   border-radius: 20px;
   filter: none;
+  
 }
 
 .student-rating .blue-box {
-  height: 90vh;
+  height: 21vh;
   width: 100%;
   position: absolute;
   background-color: #0091DC;
-  top: 200px;
+  top: 150px;
   z-index: -5;
 }
 
@@ -405,12 +422,14 @@ body {
 
   width: 100%;
   margin: auto;
-  margin-top: 350px;
+  margin-top: 100px;
 }
+
+
 
 .blue-box-title-section {
   background-color: #0091DC;
-  height: 200px;
+  height: 100px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -428,8 +447,15 @@ body {
 }
 
 .about-us-div .about-info {
-  font-size: 1.5rem;
-  text-align: center;
+  font-size: 1.25rem;
+  text-align: justify;
+  width: 90%;
+  margin: auto;
+}
+
+.about-info  i {
+  color: gold;
+  font-size: 1.25rem;
 }
 
 .about-us-div .founderCofounder .card-deck {
@@ -442,17 +468,23 @@ body {
   border: none;
 }
 
-.about-us-div .founderCofounder .card-deck .card .linkedin-btn {
+/* .about-us-div .founderCofounder .card-deck .card .linkedin-btn {
   background-color: #F9AF2A;
   color: white;
   padding: 5px;
   border-radius: 5px;
   width: 5rem;
+} */
+
+.about-us-div .founderCofounder .card-deck .card .linked-in-profile-icon {
+  font-size: 3rem;
+  color: #0A66C2;
+  cursor: pointer;
 }
 
 .contact-us-div {
   margin-top: 100px;
-  height: 200px;
+  height: 100px;
   width: 100%;
   background-color: #0091DC;
   z-index: 8;
@@ -490,9 +522,7 @@ body {
 
 }
 
-.contact-us-div {
-  border: 1px solid black;
-}
+
 
 
 
@@ -580,6 +610,10 @@ footer .footer .main-logo {
   justify-content: center;
 }
 
+footer .footer .main-logo img {
+  width: 7rem;
+}
+
 
 footer .footer .tutor-service-about {
   display: flex;
@@ -601,10 +635,296 @@ footer .footer .contact-use {
 
 
 
+.border-box .accordion-item .accordion-button {
+  border: 1px solid #F4FCFF;
+  height: 10vh;
+  border-radius: calc(1.25rem - 1px);
+  background-color: #F4FCFF;
+  position: relative;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-bottom-right-radius: calc(1.25rem - 1px);
+  border-bottom-left-radius: calc(1.25rem - 1px);
+}
+
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color:#F4FCFF;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.13);
+}
+
+
+
+
+
+.accordion-button i{
+  position: absolute;
+  right: 18px;
+  font-size: 1.5rem;
+  background-color:#F4FCFF;
+  z-index: 5;
+}
+
+.border-box .accordion-body{
+  border: 1px solid #F4FCFF;
+  border-radius: calc(1.25rem - 1px);
+}
+
+.carousel-inner{
+
+  margin-top: 0.25rem;
+}
+
+.card-button {
+  background-color: #6dc3ee;
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 0.75rem;
+  width: 40%;
+}
+
+.card-decks-div a:hover {
+  color: black;
+}
+
+.paragraph-image {
+display: flex;
+}
+
+.paragraph-image .why-choose-us-section{
+  width: 50%;
+}
+
+.paragraph-image .why-choose-us-section .btn-outline-primary {
+  color: black;
+  border-color: #0d6efd;
+}
+
+.why {
+  font-size: 1.75rem;
+}
+
+.choose-title {
+  color: #0091DC;
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+.paragraph-image img{
+  width: 50%;
+}
+
+.margin-bottom-btn {
+  margin-top: 0.5rem;
+}
+
+.arrow-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.paragraph-image .arrow-info .arrow-vector {
+  width: 4%;
+  height: 4%;
+}
+
+.our-services-div {
+  width: 90%;
+  margin: auto;
+}
+
+
+
+.our-services-div .services .service-1{
+  display: flex;
+}
+
+.seminar {
+  position: relative;
+  width: 50%;
+  display: flex;
+ 
+}
+.seminar .vect-1-absolute {
+  position: absolute;
+  width: 4rem;
+  top: 17px;
+  left: 80px;
+  
+}
+.seminar p{
+  font-size: 1.5rem;
+ 
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.seminar svg {
+  padding-left: 10%;
+}
+
+.session {
+  position: relative;
+  width: 50%;
+  display: flex;
+ 
+}
+.session .vect-2-absolute {
+  position: absolute;
+  width: 4rem;
+  top: 32px;
+  left: 80px;
+}
+
+.session .session-img{
+  position: absolute;
+  width: 4rem;
+  top: 22px;
+  left: 80px;
+}
+.session p{
+  font-size: 1.5rem;
+ 
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.session svg {
+  padding-left: 10%;
+}
+
+.our-services-div {
+  width: 100%;
+}
+
+.our-services-div .services{
+  width: 90%;
+  margin: auto;
+}
+
+.our-services-div .services .service-2{
+  display: flex;
+}
+
+.our-services-div .services .service-3{
+  display: flex;
+}
+
+.our-services-div-heading {
+  text-align: center;
+  background-color: #0091DC;
+  width: 100%;
+}
+
+.our-services-div h3 {
+  font-size: 3rem;
+  width: 90%;
+  margin: auto;
+}
+
+.absolute-whatsapp-icon {
+  position: fixed;
+  z-index: 20;
+  font-size: 2.5rem;
+  bottom: 20px;
+  right: 15px;
+  background-color:#25D366;
+  color: white;
+  padding: 7px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+
+
+.absolute-whatsapp-icon .whatsapp-tooltip {
+  position: fixed;
+  bottom: 30px;
+  right: 75px;
+  font-size: 1rem;
+  color:#007FFF;
+  visibility: hidden;
+}
+
+.absolute-whatsapp-icon:hover .whatsapp-tooltip{
+  visibility: visible;
+}
+
+
+.img-logo {
+  width: 6rem; 
+  height: 4rem;
+}
+
+.container {
+  width: 90%;
+  height: 250px;
+  border: none;
+  white-space:pre-wrap;
+  margin: auto;
+  
+}
+
+.item {
+  background-color: white;
+ /* word-wrap: break-word; */
+  width: 500px;
+  height: 200px;
+padding: 10px;
+  margin: auto;
+  margin-left: 20px ;
+  border-radius: 20px;
+  border: 1px solid rgb(221, 213, 213);
+}
+
+.item p {
+  text-align: justify;
+}
+
+.item h5 {
+  font-size: 1.5rem;
+  color: #007FFF;
+  text-align: center;
+}
+
+
+
+
+/* Flex */
+.flex {
+  display: flex;
+  flex-wrap: nowrap; 
+  overflow: auto;
+  overflow-y: hidden;
+}
+.flex-item {
+  flex: 0 0 auto;
+}
+
+.seminar, .session {
+  background-color: #F4FCFF;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
 @media screen and (max-width: 600px)
+
 
 /*===============Mobile==================*/
   {
+    .item {
+      width: 300px;
+    }
+
+    .img-logo {
+      width: 6rem; 
+      height: 4rem;
+    }
+    
   .carousel-inner {
     margin-top: 1rem;
   }
@@ -662,12 +982,21 @@ footer .footer .contact-use {
 
   .about-us-div {
 
-    width: 90%;
+    width: 100%;
     margin: auto;
-    margin-top: 245px;
+    margin-top: 80px;
+  }
+
+  .about-us-div .about-title {
+    font-size: 2rem;
+   
   }
 
   .contact-us-div .contact h1 {
+    font-size: 2rem;
+  }
+
+  .contact-us-div .contact-us h1 {
     font-size: 2rem;
   }
 
@@ -697,4 +1026,108 @@ footer .footer .contact-use {
     display: none;
 
   }
+
+  .paragraph-image {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .paragraph-image p{
+      width: 100%;
+    }
+
+    .paragraph-image img{
+      width: 100%;
+    }
+
+    .margin-up-btn {
+      margin-bottom: 0.5rem;
+    }
+
+    .margin-bottom-btn {
+      margin-top: 0.1rem;
+    }
+
+    .paragraph-image .why-choose-us-section {
+      width: 100%;
+    }
+    .arrow-info {
+
+      justify-content: space-between;
+    }
+
+    .arrow-info p{
+      width: 90%;
+    }
+    
+    .paragraph-image .arrow-info .arrow-vector {
+      width: 5%;
+      height: 5%;
+    }
+
+    .student-rating .blue-box {
+      display: none;
+    }
+
+  
+    .our-services-div .services .service-1{
+      flex-direction: column;
+    }
+
+    .seminar, .session {
+      width: 100%;
+    }
+
+    .seminar p{
+      margin-left: -75px;
+      font-size: 1rem;
+      text-align: start;
+    }
+    
+    .session p{
+      margin-left: -75px;
+      font-size: 1rem;
+      text-align: start;
+    }
+   
+
+    .seminar .vect-1-absolute {
+      top: 24px;
+      left: 33px;
+      
+    }
+
+    .session .vect-2-absolute {
+      top: 34px;
+      left: 35px;
+    }
+
+    .our-services-div .services .service-2 {
+      flex-direction: column;
+    }
+
+    .session .session-img{
+     
+      top: 24px;
+      left: 35px;
+    }
+
+    .our-services-div .services .service-3{
+     flex-direction: column;
+    }
+
+    .seminar svg {
+      padding-left: 3%;
+    }
+
+    .session svg {
+      padding-left: 3%;
+    }
+    
+
+    .our-services-div .services{
+      width: 90%;
+      margin: auto;
+      margin-left: 10px;
+    }
 }
